@@ -30,7 +30,7 @@ users = [
 
 # collected data -> csv file
 keys = ["name", "username", "department"]
-with open("../csv_files/by_department.csv", "w", newline="") as by_department:
+with open("./csv_files/by_department.csv", "w", newline="") as by_department:
     writer = csv.DictWriter(by_department, fieldnames=keys)
     writer.writeheader()
     writer.writerows(users)
