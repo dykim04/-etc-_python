@@ -1,0 +1,944 @@
+['<!DOCTYPEhtml>', '<htmllang="ko">', '<head>', '<metacontents="always"name="referrer"/>', '<metacontent="IE=edge"http-equiv="X-UA-Compatible"/>', '<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금증을해결하지못했다면지식iN\'질문하기\'를
+해보세요."name="description">', '<metacontent="width=1024"name="viewport"/>', '<metacontent="none"name="msapplication-config">', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/common.css"rel="stylesheet"type="text/css"/>', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/components.css"rel="stylesheet"type="text/css"/>', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/other.css"rel="stylesheet"type="text/css"/>', '<script>', 'varpcDomain="kin.naver.com";', 'varpcDomainWithProtocol="https://kin.naver.com";', 'varpcKinServiceProtocol="https";', 'varmobileDomain="m.kin.naver.com";', 'varmobileDomainWithProtocol="https://m.kin.naver.com";', 'varmobileKinServiceProtocol="https";', 'varuploadDomain="upload.kin.naver.com";', 'varuploadDomainWithProtocol="https://upload.kin.naver.com";', 'varuploadKinServiceProtocol="https";', '</script>', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/kin.js"type="text/javascript"></script>', '<metacontent="text/html;charset=utf-8"http-equiv="Content-Type"/>', '<metacontent="noindex,nofollow"name="robots">', '<metacontent="파이썬검색결과:네이버지식iN"property="og:title">', '<metacontent="https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"property="og:url"/>', '<metacontent="https://ssl.pstatic.net/static/kin/common/kin_thumbnail_new_w1000.png"property="og:image"/>', '<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금증을해결하지못했다면지식iN\'질문하기\'를해보세요."property="og:description"/>', '<metacontent="네이버지식iN"property="og:article:author"/>', '<metacontent="https://kin.naver.com"property="og:article:author:url"/>', '<linkhref="/favicon.ico?v=2.4"rel="shortcuticon"type="image/x-icon"/>', '<title>', '파이썬검색결과:지식iN', '</title>', '<scripttype="text/javascript">', 'if(typeofwindow.nhn=="undefined")window.nhn={};', 'if(typeofwindow.naver=="undefined")window.naver={};', 'nhn.isLogin=false;', 'nhn.isJunior=("N"=="Y");', 'nhn.isKinUser=false;', 'nhn.isPortableDevice=false;', "nhn.jsDir='https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min';", 'varg_ssc=("kin.search"=="")?"kin.temp":"kin.search";', 'varccsrv="cc.naver.com";', 'varkinRos={', 'bIsNoticeDisplay:("false"==""||"false"=="false")?false:true,', 'bIsActionNoticeDisplay:("false"==""||"false"=="false")?false:true', '};', 'varstandardReportPopupUrl="https://srp2.naver.com/report";', '</script>', '</meta></meta></meta></meta></head>', '<body>', '<divid="loadingIndicator"style="display:none;width:100%;height:100%;position:fixed;top:0px;left:0px;background-color:transparent;z-index:10000;">', '<imgalt="데이터요청응답대기중"height="21"src="https://ssl.pstatic.net/static/kin/m/ico_lod2.gif"style="position:absolute;top:49%;left:49%;"width="21"/>', '</div>', '<divclass="wrapwrap_search"id="wrap">', '<divclass="skip_navheader_gnb_inner">', '<aclass="skip"href="#gnb"onclick="nhn.Kin.Utility.skipNavigation(\'au_lnb_home\');returnfalse;">메인메뉴바로가기</a>', '<aclass="skip"href="#s_content"onclick="nhn.Kin.Utility.skipNavigation(\'s_content\');returnfalse;">본문바로가기</a>', '</div>', '<divclass="header_wrap">', '<divaria-labelledby="ieUpdateBannerTitle"class="popuppopup--header_notice"id="ieUpdateBanner"role="dialog"style="display:none;">', '<h1class="blind"id="ieUpdateBannerTitle"tabindex="0">권장브라우저업데이트안내</h1>', '<divclass="popup__content">', '<divclass="popup__title">', '<pclass="popup__title_text"><spanclass="ico_alertsp_common"></span>권장브라우저안내</p>', '</div>', '<divclass="popup__maintext">', 
+'<pclass="popup__text">혹시아직인터넷익스플로러9.0미만버전을사용하고계신가요?</p>', '<pclass="popup__subtext">새롭게바뀐 
+지식iNQ&amp;A페이지는IE9.0이상의브라우저에최적화되어있습니다.원활한이용을위해꼭업데이트해주세요!<aclass="popup__link"href="https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads"target="_blank">업데이트하기<spanclass="sp_commonico_arr_lnk"></span></a></p>', '</div>', '</div>', '</div>', '<scripttype="text/javascript">', '//IE8이하이면브라우 
+저버전을올려달라는배너를노출한다.', '$Fn(function(){', 'varoAgent=jindo.$Agent().navigator();', 'if(oAgent.ie&&(oAgent.version>=6&&oAgent.version<9)){', 'if(typeofnaver.kin.SimpleBanner!=="undefined"){', 'varoIeUpdateBanner=newnaver.kin.SimpleBanner({', 'sBannerId:"ieUpdateBannerArea"', '});', '}', '}', "},this).attach(document,'domready');", '</script>', '<divclass="header_gnb">', '<divclass="header_gnb_inner">', '<divclass="header_gnb__cell">', '<h1class="header_logo">', '<aclass="logo_naver"href="http://www.naver.com"onclick="nhn.Kin.Utility.nClicks(\'STA.naverlogo\',\'\',\'\',event);"title="나 
+의경쟁력,네이버"><spanclass="logo_kinsp_common">NAVER</span></a>', '</h1>', '<divclass="header_search">', '<h2class="logo_wrap">', '<aclass="sp_gnbicon_logo_kin"href="/"onclick="nhn.Kin.Utility.nClicks(\'STA.kin\',\'\',\'\',event);">지식iN</a>', '</h2>', '<h3class="blind">검색영역</h3>', '<formaction="/search/list.naver"id="topSearch"method="get"name="topSearch"onsubmit="returncheckQuery();">', '<fieldset>', '<legend>지식인검색</legend>', '<divclass="search_area">', '<inputaccesskey="s"aria-autocomplete="list"aria-controls="atcmpList"aria-expanded="false"aria-haspopup="listbox"autocomplete="off"class="search_input"id="nx_query"maxlength="255"name="query"onclick="nhn.Kin.Utility.nClicks(\'STA.search\',\'\',\'\',event);returnfalse;"role="combobox"title="검색어입력"type="text"value="파이썬"/>', '<aclass="search_auto"href="#">', '<spanclass="sp_gnbicon_arrow"id="triangleBtn">자동완성열기</span>', '</a>', '<div>', '<iframeclass="auto_complete_box"frameborder="0"height="193px"id="autoFrame"marginheight="0"marginwidth="0"scrolling="no"title="검색어자동완성"width="290"></iframe>', '</div>', '<aclass="search_btn"href="#"onclick="returncheckQuery();"><spanclass="sp_gnbicon_search">지식iN검색</span></a>', '</div>', '</fieldset>', '</form>', '</div>', '</div>', '<divclass="header_gnb__cell">', '<divclass="gnb_wrap">', '<divclass="gnb_eXpertLogo">', '<aaria-controls="bannerExpert"aria-expanded="true"aria-haspopup="true"class="link"href="https://expert.naver.com"id="bannerLink"target="_blank">', '<spanclass="logo"><spanclass="blind">eXpert</span></span>', '</a>', '</div>', '<divclass="gnb_chat_chatButtonArea">', '<buttonaria-controls="chatMenu"aria-expanded="false"aria-haspopup="true"aria-pressed="false"class="button_chat"id="chatButton"type="button">', '<spanclass="blind">상담목록</span>', '<spanclass="icon_chat"></span>', '<iclass="iconActive"style="display:none"><spanclass="blind">미확인메시지</span></i>', '</button>', '<divaria-hidden="true"class="chat_popup"id="chatMenu"role="menu">', '<aclass="link_chat"href="/expert/center/counseling/list"role="menuitem"target="_blank">', '판매한상품', '<iclass="_counselorNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>', '</a>', '<aclass="link_chat"href="/counseling/purchases"role="menuitem"target="_blank">', '구매한상품', '<iclass="_counseleeNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>', '</a>', 
+'</div>', '</div>', '<divclass="gnb_common_area">', '<divid="gnb">', '<scripttype="text/javascript">', 'vargnb_service="kin";', 'vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");', "vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');", 'vargnb_template="gnb_utf8";', 'vargnb_item_hide_option=0;', '</script>', '<scriptcharset="utf-8"src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?2023030806"type="text/javascript"></script>', '</div>', '</div>', '</div>', '<divclass="header__rollingrolling-notice">', '<iclass="icon_speaker"><spanclass="blind">실시간공지사항</span></i>', '<ulclass="rolling-notice__list_rolling_banner"id="listNotice">', '<liclass="rolling-notice__item_rollingItem"data-start-time="2021-10-2600:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>', '<spanclass="text-color--secondary">2023년엑스퍼트전문가되자!</span>', '</a>', '</li>', '<liclass="rolling-notice__item_rollingItem"data-start-time="2022-08-3100:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>', '<spanclass="text-color--secondary">지존도이제엑스퍼트</span>', '</a>', '</li>', '<liclass="rolling-notice__item_rollingItem"data-start-time="2022-12-0600:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://m.expert.naver.com/"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>', '전문가가 
+필요할때!엑스퍼트.', '</a>', '</li>', '</ul>', '</div>', '</div>', '</div>', '</div>', '<!--nav-->', '<divclass="nav"role="navigation">', '<divclass="nav_inner">', '<h3class="blind">메인메뉴</h3>', '<ulclass="nav_list"id="au_lnb"role="menubar">', '<liclass="menu"role="presentation">', '<aclass="item"href="/index.naver"id="au_lnb_home"onclick="nhn.Kin.Utility.nClicks(\'LNB.home\',\'\',\'\',event);"role="menuitem"tabindex="0"><em>홈</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aaria-expanded="false"aria-haspopup="true"class="item"href="/qna/list.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.qna\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>Q&amp;A</em></a>', '<ulclass="nav_sub_list_lnbSubMenu"role="menu">', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=11"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'11\',\'1\',event);"role="menuitem"tabindex="-1">교육,학문</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=1"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'1\',\'2\',event);"role="menuitem"tabindex="-1">컴퓨터통신</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=2"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'2\',\'3\',event);"role="menuitem"tabindex="-1">게임</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=3"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'3\',\'4\',event);"role="menuitem"tabindex="-1">엔터테인먼트,예술</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=8"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'8\',\'5\',event);"role="menuitem"tabindex="-1">생활</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=7"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'7\',\'6\',event);"role="menuitem"tabindex="-1">건강</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=6"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'6\',\'7\',event);"role="menuitem"tabindex="-1">사회,정치</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=4"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'4\',\'8\',event);"role="menuitem"tabindex="-1">경제</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=9"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'9\',\'9\',event);"role="menuitem"tabindex="-1">여행</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=10"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'10\',\'10\',event);"role="menuitem"tabindex="-1">스포츠,레저</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=5"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'5\',\'11\',event);"role="menuitem"tabindex="-1">쇼핑</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=13"onclick="nhn.Kin.Utility.nClicks(\'LNB.jun\',\'\',\'\',event);"role="menuitem"tabindex="-1"> 
+쥬니버Q&amp;A</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=12"onclick="nhn.Kin.Utility.nClicks(\'LNB.loc\',\'\',\'\',event);"role="menuitem"tabindex="-1">지역&amp;플레이스</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=20"onclick="nhn.Kin.Utility.nClicks(\'LNB.talk\',\'\',\'\',event);"role="menuitem"tabindex="-1">고민Q&amp;A</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/opendic/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.open\',\'\',\'\',event);"role="menuitem"tabindex="-1">오픈사전</a></li>', '</ul>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/qna/questionList.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.answer\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>답변하기</em></a>', 
+'</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/volunteer/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.donation\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>지식기부</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/people/elite/index.naver?from=lnb"id="peopleLnbBtn"onclick="nhn.Kin.Utility.nClicks(\'LNB.people\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>사람들</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/best/listaha.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.best\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>베스트</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/hall/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.honor\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>명예의 
+전당</em></a>', '</li>', '<liclass="menu"role="presentation">', '<spanclass="lnb_bar">|</span>', '<aclass="item"href="/myinfo/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.profile\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>프로
+필</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/partnercenter/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.partner\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>파트너센터</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/roulette/home.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.roulette\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>룰렛</em></a>', '</li>', '</ul>', '<aclass="nav__button_question_clickcode:LNB.q"href="#"onclick="nhn.Kin.checkRosAndGoUrl(event,\'/qna/question.naver\',\'\');"role="button"><spanclass="btn_inner"><iclass="sp_gnbicon_pencil"></i>질문하기</span></a>', '</div>', '</div>', '</div>', '<scripttype="text/javascript">', '$Fn(function(){', 'newnaver.kin.LNB({', "'questionType':''", '});', "}).attach(window,'load');", 'varGNB_BRIGHTNESS_VALUE={', 'DARK_ICON:0,', 'DARK_ICON_AND_TRANSPARENCY:1,', 'BRIGHT_ICON_AND_TRANSPARENCY:2,', 'BRIGHT_ICON:3', '};', 'varGNB_ITEM_HIDE_OPTION_BIT_VALUE={', 'DEFAULT:0,', 'HIDE_LOGIN_BTN:1,', 'HIDE_USER_LAYER:2,', 'HIDE_NAVER_ME_AREA:4,', 'HIDE_MAIL_ALARM_AREA:8,', 'HIDE_PROFILE_IMAGE:16,', 'SHOW_BENEFIT_FOR_STAFF_MEMBER:32', '};', 'varsmartSearch="";', 
+'vargnb_service="kin";', 'vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");', "vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');", 'vargnb_template="gnb_utf8";', 'vargnb_item_hide_option=GNB_ITEM_HIDE_OPTION_BIT_VALUE.DEFAULT;', '$Fn(function(){', 'getGNB();', 'varbIsGnbClicked=false;', '$Fn(function(we){', 'if(!bIsGnbClicked){', 'gnbAllLayerClose();', '}', 'bIsGnbClicked=false;', "},this).attach(document.body,'click');", '$Fn(function(we){', 'bIsGnbClicked=true;', "},this).attach($('gnb'),'click');", 'try{', "$('autoFrame').src='/static/reatcmp.html?v=4.1';", '}catch(e){', '}', "smartSearch=newnhn.AjaxSuggestUS('nx_query','autoFrame',{", "url:'https://ac.search.naver.com/nx/ac',", "cookieName:'NaverSuggestUse',", "listbox:'_resultBox',", "sFromName:'topSearch',", "triangleBtn:'triangleBtn',", 'sListMaxLength:55,', 'listMaxCount:15,', "request_type:'jsonp',", 'request_data:{', "q:'{query}',", "st:'100',", "r_format:'json',", "t_koreng:'1',", "q_enc:'UTF-8',", "r_enc:'UTF-8',", "r_unicode:'0',", "r_escape:'1',", "frm:'kin'", '},', "sTriangleUpOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_up.gif',", "sTriangleUpOff:'https://ssl.pstatic.net/sstatic/search/mypocket/v3/btn_atcmp_off_op2.gif',", "sTriangleDownOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down.gif',", "sTriangleDownOff:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down3.gif'", 
+'}).attach({', 'actSubmit:function(){', 'try{', 'top.selectAction(this._elForm);', '}catch(e){', 'try{', 'selectAction(this._elForm);', '}catch(e){', '}', '}', 'this._elForm.submit();', '}', '});', 'varexpertEntryBanner=$$.getSingle("div.gnb_eXpertLogodiv.banner");', 'if(!!expertEntryBanner){', 'varcookie=new$Cookie();', '$Fn(function(){', '$Element(expertEntryBanner).hide();', 'varnewDisabledUntil=newDate().getTime()+(3*1000*24*60*60);', 'cookie.set("kin_expert_entry_banner_disabled_until",newDisabledUntil,5);', '}).attach($$.getSingle("div.gnb_eXpertLogodiv.bannerbutton.buttonCancel"),\'click\');', 'vardisabledUntilTimestamp=newNumber(cookie.get("kin_expert_entry_banner_disabled_until"));', 'if(!isNaN(disabledUntilTimestamp)){', 'if(newDate().getTime()>disabledUntilTimestamp){', 'cookie.remove("kin_expert_entry_banner_disabled_until");', '$Element(expertEntryBanner).show();', '}', '}else{', '$Element(expertEntryBanner).show();', '}', '}', 'if(typeofnhn.Kin.ChatMenu!=="undefined"){', 'window.oChatMenu=newnhn.Kin.ChatMenu();', '}', "}).attach(window,'load');", '</script>', '<divclass="container-fluid"id="container">', '<divclass="container-fluid-content">', '<divclass="container-fluid-content-inner">', '<divid="search_result">', "<strong>'파이썬'</strong>에대한검색결과입니다.", '</div>', '<scripttype="text/javascript">', 'functioncheckAdultAuth(){', 'varurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin&excludeAdultDoc=false";', 'varsurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin";', 'try{', 'top.location.href="https://nid.naver.com/nidlogin.login?svctype=128&a_version=2&viewtype=2&url="+encodeURIComponent(url+"&from=search")+"&surl="+encodeURIComponent(surl);', 
+'}catch(e){', 'history.back();', '}', '}', '</script>', '<divclass="container-fluid-content__left"id="content">', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.Terms.js"type="text/javascript"></script>', '<divid="s_content">', '<divid="scl">', '<ul>', '<liclass="tx_depth1"><strong><aclass="_nclicks:tab.kin"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin"title="전체"><span>전체</span></a></strong></li>', '<liclass="tx_depth2"><aclass="_nclicks:tab.qna"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna"title="Q&amp;A"><span>Q&amp;A</span></a></li>', '<liclass="tx_depth3"><aclass="_nclicks:tab.ency"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=ency"title="오픈백과"><span>오픈백과</span></a></li>', '<liclass="tx_depth6"><aclass="_nclicks:tab.noanswer"href="/search/noAnswerList.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"target="_blank"title="답변을기다리는질문"><span>답변을기다리는질문</span></a></li>', '<li>', '</li></ul>', '</div>', '<divclass="banner_suicide_stop"id="suicidalPreventionBanner"style="display:none;">', '<divclass="content_suicide_stop">', '<h3class="tit_suicide_stop">', '<spanclass="blind">생명은소중합니다.!지금,희망을클릭하세요.</span>', '</h3>', '<ulclass="info_suicide_stop">', '<liclass="counsel_listv1">', '<strongclass="tit_counsel_list">전화상담</strong>', '<ulclass="counsel_info_list">', '<li>자살예방상담전화<em>1393</em></li>', '<li>정신건강상담전화<em>1577-0199</em></li>', '<li><ahref="https://www.cyber1388.kr:447"target="_blank"> 
+청소년HelpCall</a><em>1388</em></li>', '<li><ahref="https://www.lifeline.or.kr"target="_blank">한국생명의전화</a><em>1588-9191</em></li>', '<li>한마음한몸자살예방센터<em>1577-0199</em></li>', '</ul>', '</li>', '<liclass="counsel_listv2">', '<strongclass="tit_counsel_list">온라인상담</strong>', '<ulclass="counsel_info_list">', '<li><ahref="https://www.lifeline.or.kr"id="btn_suicide_stop"target="_blank">한국생명의전화</a></li>', '<li><ahref="https://www.cyber1388.kr:447"target="_blank">청소년사이버상담센터</a></li>', '</ul>', '</li>', '<liclass="counsel_listv3">', '<strongclass="tit_counsel_list">지 
+식iN도여러분을돕습니다.</strong>', '<ulclass="counsel_info_list">', '<li><ahref="/qna/question.naver?expertType=doctor&amp;dirId=70109"target="_blank">의사에게질문하기</a></li>', '<li><ahref="/profile/index.naver?u=6oCfeacJKVQGwsBB7OHEIS4miiPixwQ%2FoueervNeYrg%3D"target="_blank">여성가족부.한국청소년상담복지개발원</a></li>', '<li><ahref="/profile/index.naver?u=9xhBJX%2Fe3worDHM4Tp9d%2F4jUxoIMOWjkBn9VK4u3x8M%3D"target="_blank">경기도청소년상담복지센터</a></li>', '<liclass="list_aside"><ahref="/profile/index.naver?u=m61fd7AyyTNGzdSXnfIARZMD2YrqU0TvSai8n3aIfHk%3D"target="_blank">마음상담</a></li>', '<li><spanclass="counsel_vt">|</span><ahref="/profile/index.naver?u=9AFcqSNT5xcmX%2BDwjqumdFA11U6ypJgxKXiNTqx%2FenU%3D"target="_blank">허그맘</a></li>', '</ul>', '</li>', '</ul>', '</div>', '</div>', '<scripttype="text/javascript">', 'jindo.$Fn(function(){', "if(nhn.Kin.Utility.containSuicideKeywords('\\uD30C\\uC774\\uC36C')){", "jindo.$Element('suicidalPreventionBanner').show();", '}', '},this).attach(window,"load");', '</script>', '<divclass="section">', '<h2>', '<imgalt="전체지 
+식iN"height="15"src="https://ssl.pstatic.net/static/kin/09renewal/h_search_kin_all.gif"width="67"/>', '<spanclass="number">(<em>1-10/247,487</em>)</span>', '</h2>', '<divclass="option_search">', '<ulclass="option_sort">', '<liclass="sp_sort1"><strong><aaria-current="true"class="_nclicks:kin.relavant"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=none"title="정확도"><span>정확도</span></a></strong></li>', '<liclass="sp_sort2"><aclass="_nclicks:kin.recent"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=date"title="최신순"><span>최신순</span></a></li>', '<liclass="sp_sort3"><aclass="_nclicks:kin.vcount"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=vcount"title="추천순"><span>추천순</span></a></li>', '</ul>', '<formname="date_search">', '<inputname="sort"type="hidden"value="none">', '<inputname="section"type="hidden"value="kin"/>', '<inputname="query"type="hidden"value="파
+이썬"/>', '<inputid="au_period"name="period"type="hidden"value=""/>', '</input></form>', '<ulclass="option_term">', '<li>', '<divclass="selectbox-noscript"id="au_date_select">', '<selectclass="selectbox-source"id="au_date_result"name="date"title="기간전체">', '<optionclass="_nclicks:kin.dateall"selected=""value="0">기간전체</option>', '<optionclass="_nclicks:kin.date1w"value="1">최근1주</option>', '<optionclass="_nclicks:kin.date1m"value="2">최근1달</option>', '<optionclass="selectbox-notclose_nclicks:kin.dateinput"value="2002.01.01.2023.03.08.">기간입력</option>', '</select>', '<divclass="selectbox-box">', '<divclass="selectbox-label"></div>', '</div>', '<divclass="selectbox-layer">', '<divclass="selectbox-list"></div>', '</div>', '</div>', '</li>', '</ul>', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.DateSelectBox.js"type="text/javascript"></script>', '<scripttype="text/javascript">', '$Fn(function(){', "nhn.Kin.Search.DateSelectBox.initialize('PC');", '},this).attach(window,"load");', '</script>', '</div>', '<!--SearchList-->', '<strongclass="blind">검색결과</strong>', '<ulclass="basic1">', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440782348&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=1&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>노트북사양</a>', '</dt>', '<ddclass="txt_inline">2023.03.02.</dd>', '<dd><b>파이썬</b>하고과제정도하는데에i5칩정도면괜찮을까요?i3은너무부족하
+겠죠?사실<b>파이썬</b>은i3으로도차고넘치지만...나중을위해서라도i5정도는가주시는게나을...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천
+수0', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP5"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top5.gif"width="25">', '폴리글랏(kjh5****)', '</img></dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440982546&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=2&amp;search_sort=0&amp;spq=0"target="_blank"><b> 
+파이썬</b>책</a>', '</dt>', '<ddclass="txt_inline">2023.03.05.</dd>', '<dd>...모르고<b>파이썬</b>을공부해볼려합니다무슨책
+을사용해야할지골라주세요1.doit점프투<b>파이썬</b>2.나도코딩의<b>파이썬</b>입문3.혼자공부하는<b>파이썬</b>4.혼자공부하는첫
+...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30">', 'ncode(xtel****)', '</img></dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=440990622&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=3&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>공부</a>', '</dt>', '<ddclass="txt_inline">2023.03.06.</dd>', '<dd>점프투<b>파 
+이썬</b>을공부했는데그다음에무엇을해야하나요?<b>파이썬</b>공부로드맵부탁드립니다<b>파이썬</b>에는수많은라이브러리들이있습
+니다.거의필수라고...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수2</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=439398856&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=4&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>질문</a>', '</dt>', '<ddclass="txt_inline">2023.02.14.</dd>', "<dd><b>파이썬</b>파일을만든후프롬프트에예를들어python파일이름-example에
+서...argv[0]은'argv.py'로<b>파이썬</b>파일명이됩니다.argv[1]은'a1'이됩니다.보통len(sys....</dd>", '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수
+0', '<spanclass="bar">|</span>', '답변', 'tk****', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=439768864&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=5&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>책</a>', '</dt>', '<ddclass="txt_inline">2023.02.18.</dd>', '<dd>점프투<b>파이썬</b>,혼자서공부하는<b>파이썬</b>,<b>파이썬</b>200제3가지
+책의장단점알려주세요완전처음시작하는초본데어떤책이좋을까요3가지책모두보긴했는데...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', 
+'<spanclass="bar">|</span>', '답변', '은빛비(ma****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=101&amp;docId=439916206&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=6&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>독학해보려는 
+데요..</a>', '</dt>', '<ddclass="txt_inline">2023.02.20.</dd>', '<dd>...언어중에<b>파이썬</b>을배워보려고하는데참고할만한
+자료나온라인강의영상있을까요?그리고관련직종은뭐가있고<b>파이썬</b>독학으로취업이가능할까요?<b>파이썬</b>독학...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=101">컴퓨터,하드웨어</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답
+변수2</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=441005382&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=7&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>문제풀어주세요</a>', '</dt>', '<ddclass="txt_inline">2023.03.06.</dd>', '<dd><b>파이썬</b>문제어떻게푸는지알려주세요그이외답변신고합니다num1=100num2=200print("숫자1:",num1,"숫자2:",num2)print(num1,"+",num2,"=",num1+num2)#......</dd>', '<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%BD%94%EB%94%A9&amp;listType=answer">#파이썬코딩</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D&amp;listType=answer">#파이썬프로그래밍</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC%EC%A0%9C&amp;listType=answer">#파이썬과제</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그 
+래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수2</span>', '\xa0추천수0', '<spanclass="bar">|</span>', ' 
+답변', '<imgalt="TOP100"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top100.gif"width="32"/>', '용용(ytle****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=437504170&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=8&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>환경문의드립니다.</a>', '</dt>', '<ddclass="txt_inline">2023.01.21.</dd>', '<dd>...여기서는<b>파이썬</b>공식혼페이지에서<b>파이썬</b>설치그리고에디터로는
+vscode...그런데이번에다른강사분의<b>파이썬</b>을공부하려고준비중인데여기서는파이참과...</dd>', '<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', 
+'<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#아나콘다파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%B0%B8&amp;listType=answer">#파이참</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수1', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30"/>', 'Roong(sleo****)', '</dd>', '</dl>', '</li>', '<li>', '<divclass="thumb">', '<aclass="_nclicks:kin.img"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank"><imgalt="VSCode파이썬인터프리터안뜸"onerror="this.parentNode.parentNode.style.display=\'none\';"src="https://kin-phinf.pstatic.net/20230129_208/1674985486259ucB9o_PNG/image.png?type=m100"/></a>', '</div>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank">VSCode<b> 
+파이썬</b>인터프리터안뜸</a>', '</dt>', '<ddclass="txt_inline">2023.01.29.</dd>', '<dd>안녕하세요<b>파이썬</b>배우고있는 
+사람입니다.초반에<b>파이썬</b>설치가좀지저분했어서<b>파이썬</b>및VSCode둘다삭제후재설치했어요.그런데사진과같이VSCode에서...</dd>', '<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0&amp;listType=answer">#인터프리터</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '몰랩(71****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=1040201&amp;docId=428318333&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=10&amp;search_sort=0&amp;spq=0"target="_blank">자바신입개발자로취직후<b>파이썬</b>으로...</a>', '<imgalt="지식파트너답변"class="ico_pro"height="14"src="https://ssl.pstatic.net/static/kin/09renewal/ico_kin_partner.gif"width="51"/>', '</dt>', '<ddclass="txt_inline">2022.09.16.</dd>', '<dd>...회사에서<b>파이썬</b>으로개발을해야하는상황이라<b>파이썬</b>을학습하고있습니 
+다..그냥참고3년<b>파이썬</b>배우고3년후에중고신입으로자바개발자로이직하는게나을까요?...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=1040201">자바,JSP</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수4</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '</ul>', '<divclass="s_paging">', '<strong>1</strong>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=2"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'2\',event);">2</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=3"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'3\',event);">3</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=4"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'4\',event);">4</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=5"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'5\',event);">5</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=6"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'6\',event);">6</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=7"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'7\',event);">7</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=8"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'8\',event);">8</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=9"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'9\',event);">9</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=10"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'10\',event);">10</a>', '<aclass="next_nclicks:kin.next"href="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=11">다음페이지</a>', '</div><!--kin:navigationmaxPage="50"/-->', '<scripttype="text/javascript">', 'varkinSearchTerms=newnhn.Kin.Search.Terms();', 'if(kinSearchTerms){', "kinSearchTerms.addTerm('\\uD30C\\uC774\\uC36C');", "kinSearchTerms.addQueryToTerm('\\uD30C\\uC774\\uC36C');", 'varkin_terms=kinSearchTerms.makeTermArray();', '}', '</script>', '<divclass="this_questions"id="bottomQuestionButton">', '<p>', '<bclass="keyword">\'파이썬\'</b> 
+에대한궁금증을해결하지못하셨다면직접질문해보세요!<br/>', '내궁금증에맞는더정확한답변을받을수있습니다.', '</p>', '<aclass="btn_go_question_nclicks:ask.question"href="/qna/question.naver"target="_blank"title="질문하러가기"><imgalt="질문하러가기
+"height="33"src="https://ssl.pstatic.net/static/kin/09renewal/btn_go_question.gif"width="121"/></a>', '</div>', '<scripttype="text/javascript">', '$Fn(function(){', "if(nhn.Kin.Utility.containSuicideKeywords('\\uD30C\\uC774\\uC36C')){", "$Element('bottomQuestionButton').hide();", '}', '},this).attach(window,"load");', '</script>', '</div>', '</div>', '</div>', 
+'<divclass="container-fluid-content__right">', '<divid="aside">', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.RelatedKeyword.js"type="text/javascript"></script>', '<divclass="asiderelateaside_type1"id="au_related_keyword">', '<h4class="h_side_title">', '<strongclass="tit">연관검색어</strong>', '</h4>', '<divclass="aside_listaside_word">', '<ul>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8F%85%ED%95%99">파이썬독학</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%90%EA%B2%A9%EC%A6%9D">파이썬자격증</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B8%B0%EC%B4%88">파이썬 
+기초</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%B1%85">파이썬책</a></li>', '<li><ahref="/search/list.naver?query=%ED%98%BC%EC%9E%90%20%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">혼자공부하는파이썬</a></li>', '<li><ahref="/search/list.naver?query=%EC%A0%90%ED%94%84%ED%88%AC%ED%8C%8C%EC%9D%B4%EC%8D%AC">점프투파이썬</a></li>', '<li><ahref="/search/list.naver?query=%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">두근두근파이썬</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%84%A4%EC%B9%98">파이썬설치</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%95%99%EC%9B%90">파이썬
+학원</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%BD%94%EB%94%A9">파이썬코딩</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B0%95%EC%9D%98">파이썬강의</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%9C%BB">파이썬뜻</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20c%EC%96%B8%EC%96%B4">파이썬c언어</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8">파이썬프로그램</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EB%9E%80">파이썬이란</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%B1%80">파이썬뱀</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B5%90%EC%9E%AC">파이썬교재</a></li>', 
+'<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C">파이썬다운로드</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%99%9C%EC%9A%A9">파이썬활용</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%96%B8%EC%96%B4">파이썬언어</a></li>', '</ul>', '</div>', '<divclass="aside_help"><aclass="cs"href="https://help.naver.com/service/5627/contents/4956"target="_blank"><spanclass="blind">연관검색어</span>도움말</a><aclass="cs2_cs2"href="#"><spanclass="blind">연관검색어</span><span>더보기열기</span></a></div>', '</div>', '<divclass="asiderelateaside_type1"style="z-index:10">', '<h4class="h_side_title">', '<strongclass="tit">관련디렉토리</strong>', '</h4>', '<divclass="aside_list"id="au_directory_list">', '<ul>', '<li><!--마우스오버시layer_on클래스가추가되어야함-->', '<ahref="/qna/list.naver?dirId=10402"target="_blank">웹프로그래밍</a>', '<divclass="layer_baselayer_popcate"style="top:15px;left:9px;display:none;">', '<p>Q&amp;A&gt;컴퓨터통신&gt;프로그래밍&gt;웹프로그래밍</p>', '</div>', '</li>', '</ul>', '</div>', '</div>', '<scripttype="text/javascript">', 'nhn.Kin.Search.RelatedKeyword.initialize();', '</script>', '<divclass="tag_areaasideaside_type1">', '<h4class="h_side_title">관련태그</h4>', '<divclass="word_relate">', '<ulclass="relate_list">', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%BD%94%EB%94%A9&amp;listType=answer">#코딩</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&amp;listType=answer">#자바스크립트</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%9E%90%EB%B0%94&amp;listType=answer">#자바</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%BB%B4%ED%93%A8%ED%84%B0&amp;listType=answer">#컴퓨터</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%B3%B4%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B&amp;listType=answer">#보이즈플래닛</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8&amp;listType=answer">#마인크래프트</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=java&amp;listType=answer">#java</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=html&amp;listType=answer">#html</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%A7%80%EC%8B%9DiN%EB%8F%99%EC%98%81%EC%83%81%EC%A7%88%EB%AC%B8&amp;listType=answer">#지식iN동영상질문</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%98%A4%EB%A5%98&amp;listType=answer">#오류</a></li>', '</ul>', '</div>', '</div>', '<divclass="asideaside_type1noline">', '<h4class="h_side_titletype_default">', '<strongclass="tit">아하!그렇구나</strong>', '</h4>', '<divclass="aside_list">', '<ul>', '<li><ahref="/qna/detail.naver?d1id=11&amp;dirId=1116&amp;docId=408351920"target="_blank">코알라는어디사나요?</a></li>', '<li><ahref="/qna/detail.naver?d1id=5&amp;dirId=50502&amp;docId=438764943"target="_blank">대게랑킹크랩차이</a></li>', '<li><ahref="/qna/detail.naver?d1id=9&amp;dirId=9020306&amp;docId=389163937"target="_blank">터키가우리나라와형제인...</a></li>', '<li><ahref="/qna/detail.naver?d1id=11&amp;dirId=111608&amp;docId=434367691"target="_blank">뱀을지혜로운동물이라고하...</a></li>', '<li><ahref="/qna/detail.naver?d1id=11&amp;dirId=1114&amp;docId=386042489"target="_blank">딱밤은무슨원리인가요(힘...</a></li>', '</ul>', '</div>', '<spanclass="more"><ahref="/best/listaha.naver">더보기</a></span>', '</div>', '</div>', '</div>', '</div>', '</div>', '</div>', '<divclass="footer_wrap">', '<divclass="footer">', '<h2class="blind">하위영역</h2>', '<divclass="footer_menu">', '<aclass="_nclicks:fot.agreement"href="http://www.naver.com/rules/service.html"target="_blank">네이버이용약관</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.policy"href="/common/guide.naver?query=p1"target="_blank">지식iN서비스운영정책</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.privacy"href="http://www.naver.com/rules/privacy.html"target="_blank"><strong>개인정보처 
+리방침</strong></a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.claim"href="http://inoti.naver.com/inoti/main.nhn"target="_blank">게시중단요청서비스</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.help"href="https://help.naver.com/alias/kin/kinmain.naver"target="_blank">지식iN고객센터</a>', '</div>', '<pclass="copyright"><aclass="footer_logosp_common"href="http://www.naver.com"target="_blank">NAVER</a>Copyright©<strong><aclass="logo_nclicks:fot.nhncorp"href="https://www.navercorp.com"target="_blank">NAVERCorp.</a></strong>AllRightsReserved.</p>', '</div>', '</div>', '<scripttype="text/javascript">', 'lcs_do();', '</script>', '</div>', '</body>', '</html>']
+
+<!DOCTYPEhtml>
+<htmllang="ko">
+<head>
+<metacontents="always"name="referrer"/>
+<metacontent="IE=edge"http-equiv="X-UA-Compatible"/>
+<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금증을해결하지못했다면지식iN'질문하기'를해보세요
+."name="description">
+<metacontent="width=1024"name="viewport"/>
+<metacontent="none"name="msapplication-config">
+<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/common.css"rel="stylesheet"type="text/css"/>
+<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/components.css"rel="stylesheet"type="text/css"/>
+<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/css/min/other.css"rel="stylesheet"type="text/css"/>
+<script>
+varpcDomain="kin.naver.com";
+varpcDomainWithProtocol="https://kin.naver.com";
+varpcKinServiceProtocol="https";
+varmobileDomain="m.kin.naver.com";
+varmobileDomainWithProtocol="https://m.kin.naver.com";
+varmobileKinServiceProtocol="https";
+varuploadDomain="upload.kin.naver.com";
+varuploadDomainWithProtocol="https://upload.kin.naver.com";
+varuploadKinServiceProtocol="https";
+</script>
+<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/kin.js"type="text/javascript"></script>
+<metacontent="text/html;charset=utf-8"http-equiv="Content-Type"/>
+<metacontent="noindex,nofollow"name="robots">
+<metacontent="파이썬검색결과:네이버지식iN"property="og:title">
+<metacontent="https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"property="og:url"/>
+<metacontent="https://ssl.pstatic.net/static/kin/common/kin_thumbnail_new_w1000.png"property="og:image"/>
+<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금증을해결하지못했다면지식iN'질문하기'를해보세요
+."property="og:description"/>
+<metacontent="네이버지식iN"property="og:article:author"/>
+<metacontent="https://kin.naver.com"property="og:article:author:url"/>
+<linkhref="/favicon.ico?v=2.4"rel="shortcuticon"type="image/x-icon"/>
+<title>
+파이썬검색결과:지식iN
+</title>
+<scripttype="text/javascript">
+if(typeofwindow.nhn=="undefined")window.nhn={};
+if(typeofwindow.naver=="undefined")window.naver={};
+nhn.isLogin=false;
+nhn.isJunior=("N"=="Y");
+nhn.isKinUser=false;
+nhn.isPortableDevice=false;
+nhn.jsDir='https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min';
+varg_ssc=("kin.search"=="")?"kin.temp":"kin.search";
+varccsrv="cc.naver.com";
+varkinRos={
+bIsNoticeDisplay:("false"==""||"false"=="false")?false:true,
+bIsActionNoticeDisplay:("false"==""||"false"=="false")?false:true
+};
+varstandardReportPopupUrl="https://srp2.naver.com/report";
+</script>
+</meta></meta></meta></meta></head>
+<body>
+<divid="loadingIndicator"style="display:none;width:100%;height:100%;position:fixed;top:0px;left:0px;background-color:transparent;z-index:10000;">
+<imgalt="데이터요청응답대기중"height="21"src="https://ssl.pstatic.net/static/kin/m/ico_lod2.gif"style="position:absolute;top:49%;left:49%;"width="21"/>
+</div>
+<divclass="wrapwrap_search"id="wrap">
+<divclass="skip_navheader_gnb_inner">
+<aclass="skip"href="#gnb"onclick="nhn.Kin.Utility.skipNavigation('au_lnb_home');returnfalse;">메인메
+뉴바로가기</a>
+<aclass="skip"href="#s_content"onclick="nhn.Kin.Utility.skipNavigation('s_content');returnfalse;">본
+문바로가기</a>
+</div>
+<divclass="header_wrap">
+<divaria-labelledby="ieUpdateBannerTitle"class="popuppopup--header_notice"id="ieUpdateBanner"role="dialog"style="display:none;">
+<h1class="blind"id="ieUpdateBannerTitle"tabindex="0">권장브라우저업데이트안내</h1>
+<divclass="popup__content">
+<divclass="popup__title">
+<pclass="popup__title_text"><spanclass="ico_alertsp_common"></span>권장브라우저안내</p>
+</div>
+<divclass="popup__maintext">
+<pclass="popup__text">혹시아직인터넷익스플로러9.0미만버전을사용하고계신가요?</p>
+<pclass="popup__subtext">새롭게바뀐지식iNQ&amp;A페이지는IE9.0이상의브라우저에최적화되어있습니다.원활
+한이용을위해꼭업데이트해주세요!<aclass="popup__link"href="https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads"target="_blank">업데이트하기<spanclass="sp_commonico_arr_lnk"></span></a></p>
+</div>
+</div>
+</div>
+<scripttype="text/javascript">
+//IE8이하이면브라우저버전을올려달라는배너를노출한다.
+$Fn(function(){
+varoAgent=jindo.$Agent().navigator();
+if(oAgent.ie&&(oAgent.version>=6&&oAgent.version<9)){
+if(typeofnaver.kin.SimpleBanner!=="undefined"){
+varoIeUpdateBanner=newnaver.kin.SimpleBanner({
+sBannerId:"ieUpdateBannerArea"
+});
+}
+}
+},this).attach(document,'domready');
+</script>
+<divclass="header_gnb">
+<divclass="header_gnb_inner">
+<divclass="header_gnb__cell">
+<h1class="header_logo">
+<aclass="logo_naver"href="http://www.naver.com"onclick="nhn.Kin.Utility.nClicks('STA.naverlogo','','',event);"title="나의경쟁력,네이버"><spanclass="logo_kinsp_common">NAVER</span></a>
+</h1>
+<divclass="header_search">
+<h2class="logo_wrap">
+<aclass="sp_gnbicon_logo_kin"href="/"onclick="nhn.Kin.Utility.nClicks('STA.kin','','',event);">지식iN</a>
+</h2>
+<h3class="blind">검색영역</h3>
+<formaction="/search/list.naver"id="topSearch"method="get"name="topSearch"onsubmit="returncheckQuery();">
+<fieldset>
+<legend>지식인검색</legend>
+<divclass="search_area">
+<inputaccesskey="s"aria-autocomplete="list"aria-controls="atcmpList"aria-expanded="false"aria-haspopup="listbox"autocomplete="off"class="search_input"id="nx_query"maxlength="255"name="query"onclick="nhn.Kin.Utility.nClicks('STA.search','','',event);returnfalse;"role="combobox"title="검색어입력"type="text"value="파이썬"/>
+<aclass="search_auto"href="#">
+<spanclass="sp_gnbicon_arrow"id="triangleBtn">자동완성열기</span>
+</a>
+<div>
+<iframeclass="auto_complete_box"frameborder="0"height="193px"id="autoFrame"marginheight="0"marginwidth="0"scrolling="no"title="검색어자동완성"width="290"></iframe>
+</div>
+<aclass="search_btn"href="#"onclick="returncheckQuery();"><spanclass="sp_gnbicon_search">지식iN검색</span></a>
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+<divclass="header_gnb__cell">
+<divclass="gnb_wrap">
+<divclass="gnb_eXpertLogo">
+<aaria-controls="bannerExpert"aria-expanded="true"aria-haspopup="true"class="link"href="https://expert.naver.com"id="bannerLink"target="_blank">
+<spanclass="logo"><spanclass="blind">eXpert</span></span>
+</a>
+</div>
+<divclass="gnb_chat_chatButtonArea">
+<buttonaria-controls="chatMenu"aria-expanded="false"aria-haspopup="true"aria-pressed="false"class="button_chat"id="chatButton"type="button">
+<spanclass="blind">상담목록</span>
+<spanclass="icon_chat"></span>
+<iclass="iconActive"style="display:none"><spanclass="blind">미확인메시지</span></i>
+</button>
+<divaria-hidden="true"class="chat_popup"id="chatMenu"role="menu">
+<aclass="link_chat"href="/expert/center/counseling/list"role="menuitem"target="_blank">
+판매한상품
+<iclass="_counselorNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>        
+</a>
+<aclass="link_chat"href="/counseling/purchases"role="menuitem"target="_blank">
+구매한상품
+<iclass="_counseleeNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>        
+</a>
+</div>
+</div>
+<divclass="gnb_common_area">
+<divid="gnb">
+<scripttype="text/javascript">
+vargnb_service="kin";
+vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");
+vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');
+vargnb_template="gnb_utf8";
+vargnb_item_hide_option=0;
+</script>
+<scriptcharset="utf-8"src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?2023030816"type="text/javascript"></script>
+</div>
+</div>
+</div>
+<divclass="header__rollingrolling-notice">
+<iclass="icon_speaker"><spanclass="blind">실시간공지사항</span></i>
+<ulclass="rolling-notice__list_rolling_banner"id="listNotice">
+<liclass="rolling-notice__item_rollingItem"data-start-time="2021-10-2600:00:00"style="display:none;">
+<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks('STA.event','','',event);">
+<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>
+<spanclass="text-color--secondary">2023년엑스퍼트전문가되자!</span>
+</a>
+</li>
+<liclass="rolling-notice__item_rollingItem"data-start-time="2022-08-3100:00:00"style="display:none;">
+<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks('STA.event','','',event);">
+<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>
+<spanclass="text-color--secondary">지존도이제엑스퍼트</span>
+</a>
+</li>
+<liclass="rolling-notice__item_rollingItem"data-start-time="2022-12-0600:00:00"style="display:none;">
+<aclass="rolling-notice__link"href="https://m.expert.naver.com/"onclick="nhn.Kin.Utility.nClicks('STA.event','','',event);">
+<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>
+전문가가필요할때!엑스퍼트.
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!--nav-->
+<divclass="nav"role="navigation">
+<divclass="nav_inner">
+<h3class="blind">메인메뉴</h3>
+<ulclass="nav_list"id="au_lnb"role="menubar">
+<liclass="menu"role="presentation">
+<aclass="item"href="/index.naver"id="au_lnb_home"onclick="nhn.Kin.Utility.nClicks('LNB.home','','',event);"role="menuitem"tabindex="0"><em>홈</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aaria-expanded="false"aria-haspopup="true"class="item"href="/qna/list.naver"onclick="nhn.Kin.Utility.nClicks('LNB.qna','','',event);"role="menuitem"tabindex="-1"><em>Q&amp;A</em></a>
+<ulclass="nav_sub_list_lnbSubMenu"role="menu">
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=11"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','11','1',event);"role="menuitem"tabindex="-1">교육,학문</a></li>    
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=1"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','1','2',event);"role="menuitem"tabindex="-1">컴퓨터통신</a></li>     
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=2"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','2','3',event);"role="menuitem"tabindex="-1">게임</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=3"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','3','4',event);"role="menuitem"tabindex="-1">엔터테인먼트,예술</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=8"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','8','5',event);"role="menuitem"tabindex="-1">생활</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=7"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','7','6',event);"role="menuitem"tabindex="-1">건강</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=6"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','6','7',event);"role="menuitem"tabindex="-1">사회,정치</a></li>      
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=4"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','4','8',event);"role="menuitem"tabindex="-1">경제</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=9"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','9','9',event);"role="menuitem"tabindex="-1">여행</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=10"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','10','10',event);"role="menuitem"tabindex="-1">스포츠,레저</a></li> 
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=5"onclick="nhn.Kin.Utility.nClicks('LNB.kinlayer','5','11',event);"role="menuitem"tabindex="-1">쇼핑</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=13"onclick="nhn.Kin.Utility.nClicks('LNB.jun','','',event);"role="menuitem"tabindex="-1">쥬니버Q&amp;A</a></li>        
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=12"onclick="nhn.Kin.Utility.nClicks('LNB.loc','','',event);"role="menuitem"tabindex="-1">지역&amp;플레이스</a></li>    
+<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=20"onclick="nhn.Kin.Utility.nClicks('LNB.talk','','',event);"role="menuitem"tabindex="-1">고민Q&amp;A</a></li>
+<liclass="sub_menu"role="presentation"><aclass="item"href="/opendic/index.naver"onclick="nhn.Kin.Utility.nClicks('LNB.open','','',event);"role="menuitem"tabindex="-1">오픈사전</a></li>
+</ul>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/qna/questionList.naver"onclick="nhn.Kin.Utility.nClicks('LNB.answer','','',event);"role="menuitem"tabindex="-1"><em>답변하기</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/volunteer/index.naver"onclick="nhn.Kin.Utility.nClicks('LNB.donation','','',event);"role="menuitem"tabindex="-1"><em>지식기부</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/people/elite/index.naver?from=lnb"id="peopleLnbBtn"onclick="nhn.Kin.Utility.nClicks('LNB.people','','',event);"role="menuitem"tabindex="-1"><em>사람들</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/best/listaha.naver"onclick="nhn.Kin.Utility.nClicks('LNB.best','','',event);"role="menuitem"tabindex="-1"><em>베스트</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/hall/index.naver"onclick="nhn.Kin.Utility.nClicks('LNB.honor','','',event);"role="menuitem"tabindex="-1"><em>명예의전당</em></a>
+</li>
+<liclass="menu"role="presentation">
+<spanclass="lnb_bar">|</span>
+<aclass="item"href="/myinfo/index.naver"onclick="nhn.Kin.Utility.nClicks('LNB.profile','','',event);"role="menuitem"tabindex="-1"><em>프로필</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/partnercenter/index.naver"onclick="nhn.Kin.Utility.nClicks('LNB.partner','','',event);"role="menuitem"tabindex="-1"><em>파트너센터</em></a>
+</li>
+<liclass="menu"role="presentation">
+<aclass="item"href="/roulette/home.naver"onclick="nhn.Kin.Utility.nClicks('LNB.roulette','','',event);"role="menuitem"tabindex="-1"><em>룰렛</em></a>
+</li>
+</ul>
+<aclass="nav__button_question_clickcode:LNB.q"href="#"onclick="nhn.Kin.checkRosAndGoUrl(event,'/qna/question.naver','');"role="button"><spanclass="btn_inner"><iclass="sp_gnbicon_pencil"></i>질문하기</span></a>
+</div>
+</div>
+</div>
+<scripttype="text/javascript">
+$Fn(function(){
+newnaver.kin.LNB({
+'questionType':''
+});
+}).attach(window,'load');
+varGNB_BRIGHTNESS_VALUE={
+DARK_ICON:0,
+DARK_ICON_AND_TRANSPARENCY:1,
+BRIGHT_ICON_AND_TRANSPARENCY:2,
+BRIGHT_ICON:3
+};
+varGNB_ITEM_HIDE_OPTION_BIT_VALUE={
+DEFAULT:0,
+HIDE_LOGIN_BTN:1,
+HIDE_USER_LAYER:2,
+HIDE_NAVER_ME_AREA:4,
+HIDE_MAIL_ALARM_AREA:8,
+HIDE_PROFILE_IMAGE:16,
+SHOW_BENEFIT_FOR_STAFF_MEMBER:32
+};
+varsmartSearch="";
+vargnb_service="kin";
+vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");
+vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');
+vargnb_template="gnb_utf8";
+vargnb_item_hide_option=GNB_ITEM_HIDE_OPTION_BIT_VALUE.DEFAULT;
+$Fn(function(){
+getGNB();
+varbIsGnbClicked=false;
+$Fn(function(we){
+if(!bIsGnbClicked){
+gnbAllLayerClose();
+}
+bIsGnbClicked=false;
+},this).attach(document.body,'click');
+$Fn(function(we){
+bIsGnbClicked=true;
+},this).attach($('gnb'),'click');
+try{
+$('autoFrame').src='/static/reatcmp.html?v=4.1';
+}catch(e){
+}
+smartSearch=newnhn.AjaxSuggestUS('nx_query','autoFrame',{
+url:'https://ac.search.naver.com/nx/ac',
+cookieName:'NaverSuggestUse',
+listbox:'_resultBox',
+sFromName:'topSearch',
+triangleBtn:'triangleBtn',
+sListMaxLength:55,
+listMaxCount:15,
+request_type:'jsonp',
+request_data:{
+q:'{query}',
+st:'100',
+r_format:'json',
+t_koreng:'1',
+q_enc:'UTF-8',
+r_enc:'UTF-8',
+r_unicode:'0',
+r_escape:'1',
+frm:'kin'
+},
+sTriangleUpOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_up.gif',
+sTriangleUpOff:'https://ssl.pstatic.net/sstatic/search/mypocket/v3/btn_atcmp_off_op2.gif',
+sTriangleDownOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down.gif',
+sTriangleDownOff:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down3.gif'
+}).attach({
+actSubmit:function(){
+try{
+top.selectAction(this._elForm);
+}catch(e){
+try{
+selectAction(this._elForm);
+}catch(e){
+}
+}
+this._elForm.submit();
+}
+});
+varexpertEntryBanner=$$.getSingle("div.gnb_eXpertLogodiv.banner");
+if(!!expertEntryBanner){
+varcookie=new$Cookie();
+$Fn(function(){
+$Element(expertEntryBanner).hide();
+varnewDisabledUntil=newDate().getTime()+(3*1000*24*60*60);
+cookie.set("kin_expert_entry_banner_disabled_until",newDisabledUntil,5);
+}).attach($$.getSingle("div.gnb_eXpertLogodiv.bannerbutton.buttonCancel"),'click');
+vardisabledUntilTimestamp=newNumber(cookie.get("kin_expert_entry_banner_disabled_until"));
+if(!isNaN(disabledUntilTimestamp)){
+if(newDate().getTime()>disabledUntilTimestamp){
+cookie.remove("kin_expert_entry_banner_disabled_until");
+$Element(expertEntryBanner).show();
+}
+}else{
+$Element(expertEntryBanner).show();
+}
+}
+if(typeofnhn.Kin.ChatMenu!=="undefined"){
+window.oChatMenu=newnhn.Kin.ChatMenu();
+}
+}).attach(window,'load');
+</script>
+<divclass="container-fluid"id="container">
+<divclass="container-fluid-content">
+<divclass="container-fluid-content-inner">
+<divid="search_result">
+<strong>'파이썬'</strong>에대한검색결과입니다.
+</div>
+<scripttype="text/javascript">
+functioncheckAdultAuth(){
+varurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin&excludeAdultDoc=false";
+varsurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin";
+try{
+top.location.href="https://nid.naver.com/nidlogin.login?svctype=128&a_version=2&viewtype=2&url="+encodeURIComponent(url+"&from=search")+"&surl="+encodeURIComponent(surl);
+}catch(e){
+history.back();
+}
+}
+</script>
+<divclass="container-fluid-content__left"id="content">
+<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.Terms.js"type="text/javascript"></script>
+<divid="s_content">
+<divid="scl">
+<ul>
+<liclass="tx_depth1"><strong><aclass="_nclicks:tab.kin"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin"title="전체"><span>전체</span></a></strong></li>
+<liclass="tx_depth2"><aclass="_nclicks:tab.qna"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna"title="Q&amp;A"><span>Q&amp;A</span></a></li>
+<liclass="tx_depth3"><aclass="_nclicks:tab.ency"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=ency"title="오픈백과"><span>오픈백과</span></a></li>
+<liclass="tx_depth6"><aclass="_nclicks:tab.noanswer"href="/search/noAnswerList.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"target="_blank"title="답변을기다리는질문"><span>답변을기다리는질문</span></a></li>
+<li>
+</li></ul>
+</div>
+<divclass="banner_suicide_stop"id="suicidalPreventionBanner"style="display:none;">
+<divclass="content_suicide_stop">
+<h3class="tit_suicide_stop">
+<spanclass="blind">생명은소중합니다.!지금,희망을클릭하세요.</span>
+</h3>
+<ulclass="info_suicide_stop">
+<liclass="counsel_listv1">
+<strongclass="tit_counsel_list">전화상담</strong>
+<ulclass="counsel_info_list">
+<li>자살예방상담전화<em>1393</em></li>
+<li>정신건강상담전화<em>1577-0199</em></li>
+<li><ahref="https://www.cyber1388.kr:447"target="_blank">청소년HelpCall</a><em>1388</em></li>       
+<li><ahref="https://www.lifeline.or.kr"target="_blank">한국생명의전화</a><em>1588-9191</em></li>    
+<li>한마음한몸자살예방센터<em>1577-0199</em></li>
+</ul>
+</li>
+<liclass="counsel_listv2">
+<strongclass="tit_counsel_list">온라인상담</strong>
+<ulclass="counsel_info_list">
+<li><ahref="https://www.lifeline.or.kr"id="btn_suicide_stop"target="_blank">한국생명의전화</a></li> 
+<li><ahref="https://www.cyber1388.kr:447"target="_blank">청소년사이버상담센터</a></li>
+</ul>
+</li>
+<liclass="counsel_listv3">
+<strongclass="tit_counsel_list">지식iN도여러분을돕습니다.</strong>
+<ulclass="counsel_info_list">
+<li><ahref="/qna/question.naver?expertType=doctor&amp;dirId=70109"target="_blank">의사에게질문하기</a></li>
+<li><ahref="/profile/index.naver?u=6oCfeacJKVQGwsBB7OHEIS4miiPixwQ%2FoueervNeYrg%3D"target="_blank">여성가족부.한국청소년상담복지개발원</a></li>
+<li><ahref="/profile/index.naver?u=9xhBJX%2Fe3worDHM4Tp9d%2F4jUxoIMOWjkBn9VK4u3x8M%3D"target="_blank">경기도청소년상담복지센터</a></li>
+<liclass="list_aside"><ahref="/profile/index.naver?u=m61fd7AyyTNGzdSXnfIARZMD2YrqU0TvSai8n3aIfHk%3D"target="_blank">마음상담</a></li>
+<li><spanclass="counsel_vt">|</span><ahref="/profile/index.naver?u=9AFcqSNT5xcmX%2BDwjqumdFA11U6ypJgxKXiNTqx%2FenU%3D"target="_blank">허그맘</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<scripttype="text/javascript">
+jindo.$Fn(function(){
+if(nhn.Kin.Utility.containSuicideKeywords('\uD30C\uC774\uC36C')){
+jindo.$Element('suicidalPreventionBanner').show();
+}
+},this).attach(window,"load");
+</script>
+<divclass="section">
+<h2>
+<imgalt="전체지식iN"height="15"src="https://ssl.pstatic.net/static/kin/09renewal/h_search_kin_all.gif"width="67"/>
+<spanclass="number">(<em>1-10/247,512</em>)</span>
+</h2>
+<divclass="option_search">
+<ulclass="option_sort">
+<liclass="sp_sort1"><strong><aaria-current="true"class="_nclicks:kin.relavant"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=none"title="정확도"><span>정확도</span></a></strong></li>
+<liclass="sp_sort2"><aclass="_nclicks:kin.recent"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=date"title="최신순"><span>최신순</span></a></li>
+<liclass="sp_sort3"><aclass="_nclicks:kin.vcount"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=vcount"title="추천순"><span>추천순</span></a></li>
+</ul>
+<formname="date_search">
+<inputname="sort"type="hidden"value="none">
+<inputname="section"type="hidden"value="kin"/>
+<inputname="query"type="hidden"value="파이썬"/>
+<inputid="au_period"name="period"type="hidden"value=""/>
+</input></form>
+<ulclass="option_term">
+<li>
+<divclass="selectbox-noscript"id="au_date_select">
+<selectclass="selectbox-source"id="au_date_result"name="date"title="기간전체">
+<optionclass="_nclicks:kin.dateall"selected=""value="0">기간전체</option>
+<optionclass="_nclicks:kin.date1w"value="1">최근1주</option>
+<optionclass="_nclicks:kin.date1m"value="2">최근1달</option>
+<optionclass="selectbox-notclose_nclicks:kin.dateinput"value="2002.01.01.2023.03.08.">기간입력</option>
+</select>
+<divclass="selectbox-box">
+<divclass="selectbox-label"></div>
+</div>
+<divclass="selectbox-layer">
+<divclass="selectbox-list"></div>
+</div>
+</div>
+</li>
+</ul>
+<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.DateSelectBox.js"type="text/javascript"></script>
+<scripttype="text/javascript">
+$Fn(function(){
+nhn.Kin.Search.DateSelectBox.initialize('PC');
+},this).attach(window,"load");
+</script>
+</div>
+<!--SearchList-->
+<strongclass="blind">검색결과</strong>
+<ulclass="basic1">
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440782348&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=1&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>노트북사양</a>
+</dt>
+<ddclass="txt_inline">2023.03.02.</dd>
+<dd><b>파이썬</b>하고과제정도하는데에i5칩정도면괜찮을까요?i3은너무부족하겠죠?사실<b>파이썬</b>은i3으
+로도차고넘치지만...나중을위해서라도i5정도는가주시는게나을...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+<imgalt="TOP5"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top5.gif"width="25">
+폴리글랏(kjh5****)
+</img></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440982546&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=2&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>책</a>
+</dt>
+<ddclass="txt_inline">2023.03.05.</dd>
+<dd>...모르고<b>파이썬</b>을공부해볼려합니다무슨책을사용해야할지골라주세요1.doit점프투<b>파이썬</b>2.나도코딩의<b>파이썬</b>입문3.혼자공부하는<b>파이썬</b>4.혼자공부하는첫...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30">
+ncode(xtel****)
+</img></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=440990622&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=3&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>공부</a>
+</dt>
+<ddclass="txt_inline">2023.03.06.</dd>
+<dd>점프투<b>파이썬</b>을공부했는데그다음에무엇을해야하나요?<b>파이썬</b>공부로드맵부탁드립니다<b>파
+이썬</b>에는수많은라이브러리들이있습니다.거의필수라고...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수2</span>
+ 추천수0
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=439398856&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=4&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>질문</a>
+</dt>
+<ddclass="txt_inline">2023.02.14.</dd>
+<dd><b>파이썬</b>파일을만든후프롬프트에예를들어python파일이름-example에서...argv[0]은'argv.py'로<b> 
+파이썬</b>파일명이됩니다.argv[1]은'a1'이됩니다.보통len(sys....</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+tk****
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=439768864&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=5&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>책</a>
+</dt>
+<ddclass="txt_inline">2023.02.18.</dd>
+<dd>점프투<b>파이썬</b>,혼자서공부하는<b>파이썬</b>,<b>파이썬</b>200제3가지책의장단점알려주세요완전 
+처음시작하는초본데어떤책이좋을까요3가지책모두보긴했는데...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+은빛비(ma****)
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=101&amp;docId=439916206&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=6&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>독학해보려는데요..</a>
+</dt>
+<ddclass="txt_inline">2023.02.20.</dd>
+<dd>...언어중에<b>파이썬</b>을배워보려고하는데참고할만한자료나온라인강의영상있을까요?그리고관련직종 
+은뭐가있고<b>파이썬</b>독학으로취업이가능할까요?<b>파이썬</b>독학...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=101">컴퓨터,하드웨어</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수2</span>
+ 추천수0
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=441005382&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=7&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>문제풀어주세요</a>
+</dt>
+<ddclass="txt_inline">2023.03.06.</dd>
+<dd><b>파이썬</b>문제어떻게푸는지알려주세요그이외답변신고합니다num1=100num2=200print("숫자1:",num1,"숫자2:",num2)print(num1,"+",num2,"=",num1+num2)#......</dd>
+<ddclass="tag_area">
+<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%BD%94%EB%94%A9&amp;listType=answer">#파이썬코딩</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D&amp;listType=answer">#파이썬프로그래밍</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC%EC%A0%9C&amp;listType=answer">#파이썬과제</a>
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수2</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+<imgalt="TOP100"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top100.gif"width="32"/>
+용용(ytle****)
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=437504170&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=8&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>환경문의드립니다.</a>
+</dt>
+<ddclass="txt_inline">2023.01.21.</dd>
+<dd>...여기서는<b>파이썬</b>공식혼페이지에서<b>파이썬</b>설치그리고에디터로는vscode...그런데이번에다
+른강사분의<b>파이썬</b>을공부하려고준비중인데여기서는파이참과...</dd>
+<ddclass="tag_area">
+<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#아나콘다파이썬</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%B0%B8&amp;listType=answer">#파이참</a>
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수1
+<spanclass="bar">|</span>
+답변
+<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30"/>
+Roong(sleo****)
+</dd>
+</dl>
+</li>
+<li>
+<divclass="thumb">
+<aclass="_nclicks:kin.img"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank"><imgalt="VSCode파이썬인터프리터안뜸"onerror="this.parentNode.parentNode.style.display='none';"src="https://kin-phinf.pstatic.net/20230129_208/1674985486259ucB9o_PNG/image.png?type=m100"/></a>
+</div>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank">VSCode<b>파이썬</b>인터프리터안뜸</a>
+</dt>
+<ddclass="txt_inline">2023.01.29.</dd>
+<dd>안녕하세요<b>파이썬</b>배우고있는사람입니다.초반에<b>파이썬</b>설치가좀지저분했어서<b>파이썬</b>및VSCode둘다삭제후재설치했어요.그런데사진과같이VSCode에서...</dd>
+<ddclass="tag_area">
+<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>
+<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0&amp;listType=answer">#인터프리터</a>
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수1</span>
+ 추천수0
+<spanclass="bar">|</span>
+답변
+몰랩(71****)
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>
+<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=1040201&amp;docId=428318333&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=10&amp;search_sort=0&amp;spq=0"target="_blank">자바신입개발자로취직후<b>파이썬</b>으로...</a>
+<imgalt="지식파트너답변"class="ico_pro"height="14"src="https://ssl.pstatic.net/static/kin/09renewal/ico_kin_partner.gif"width="51"/>
+</dt>
+<ddclass="txt_inline">2022.09.16.</dd>
+<dd>...회사에서<b>파이썬</b>으로개발을해야하는상황이라<b>파이썬</b>을학습하고있습니다..그냥참고3년<b>파이썬</b>배우고3년후에중고신입으로자바개발자로이직하는게나을까요?...</dd>
+<ddclass="tag_area">
+</dd>
+<ddclass="txt_block">
+<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>
+&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=1040201">자바,JSP</a>
+<spanclass="bar">|</span>
+<spanclass="hit">답변수4</span>
+ 추천수0
+</dd>
+</dl>
+</li>
+</ul>
+<divclass="s_paging">
+<strong>1</strong>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=2"onclick="nhn.Kin.Utility.nClicks('kin.page','','2',event);">2</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=3"onclick="nhn.Kin.Utility.nClicks('kin.page','','3',event);">3</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=4"onclick="nhn.Kin.Utility.nClicks('kin.page','','4',event);">4</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=5"onclick="nhn.Kin.Utility.nClicks('kin.page','','5',event);">5</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=6"onclick="nhn.Kin.Utility.nClicks('kin.page','','6',event);">6</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=7"onclick="nhn.Kin.Utility.nClicks('kin.page','','7',event);">7</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=8"onclick="nhn.Kin.Utility.nClicks('kin.page','','8',event);">8</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=9"onclick="nhn.Kin.Utility.nClicks('kin.page','','9',event);">9</a>
+<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=10"onclick="nhn.Kin.Utility.nClicks('kin.page','','10',event);">10</a>
+<aclass="next_nclicks:kin.next"href="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=11">다음페이지</a>
+</div><!--kin:navigationmaxPage="50"/-->
+<scripttype="text/javascript">
+varkinSearchTerms=newnhn.Kin.Search.Terms();
+if(kinSearchTerms){
+kinSearchTerms.addTerm('\uD30C\uC774\uC36C');
+kinSearchTerms.addQueryToTerm('\uD30C\uC774\uC36C');
+varkin_terms=kinSearchTerms.makeTermArray();
+}
+</script>
+<divclass="this_questions"id="bottomQuestionButton">
+<p>
+<bclass="keyword">'파이썬'</b>에대한궁금증을해결하지못하셨다면직접질문해보세요!<br/>
+내궁금증에맞는더정확한답변을받을수있습니다.
+</p>
+<aclass="btn_go_question_nclicks:ask.question"href="/qna/question.naver"target="_blank"title="질문하
+러가기"><imgalt="질문하러가기"height="33"src="https://ssl.pstatic.net/static/kin/09renewal/btn_go_question.gif"width="121"/></a>
+</div>
+<scripttype="text/javascript">
+$Fn(function(){
+if(nhn.Kin.Utility.containSuicideKeywords('\uD30C\uC774\uC36C')){
+$Element('bottomQuestionButton').hide();
+}
+},this).attach(window,"load");
+</script>
+</div>
+</div>
+</div>
+<divclass="container-fluid-content__right">
+<divid="aside">
+<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230201140250/js/min/nhn.Kin.Search.RelatedKeyword.js"type="text/javascript"></script>
+<divclass="asiderelateaside_type1"id="au_related_keyword">
+<h4class="h_side_title">
+<strongclass="tit">연관검색어</strong>
+</h4>
+<divclass="aside_listaside_word">
+<ul>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8F%85%ED%95%99">파이썬독학</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%90%EA%B2%A9%EC%A6%9D">파이
+썬자격증</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B8%B0%EC%B4%88">파이썬기초</a></li>
+<li><ahref="/search/list.naver?query=%ED%98%BC%EC%9E%90%20%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">혼자공부하는파이썬</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%B1%85">파이썬책</a></li>     
+<li><ahref="/search/list.naver?query=%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">두근두근파이썬</a></li>
+<li><ahref="/search/list.naver?query=%EC%A0%90%ED%94%84%ED%88%AC%ED%8C%8C%EC%9D%B4%EC%8D%AC">점프투 
+파이썬</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%84%A4%EC%B9%98">파이썬설치</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%BD%94%EB%94%A9">파이썬코딩</a></li>
+<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%95%99%EC%9B%90">파이썬학원</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%EB%A7%A5%EB%B6%81%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">맥북파이썬</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B0%95%EC%9D%98">파이썬강의</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%9C%BB">파이썬뜻</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20c%EC%96%B8%EC%96%B4">파이썬c언어</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8">파이썬프로그램</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EB%9E%80">파이썬이란</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%B1%80">파이썬뱀</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C">파이썬다운로드</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B5%90%EC%9E%AC">파이썬교재</a></li>
+<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%96%B8%EC%96%B4">파이썬언어</a></li>
+</ul>
+</div>
+<divclass="aside_help"><aclass="cs"href="https://help.naver.com/service/5627/contents/4956"target="_blank"><spanclass="blind">연관검색어</span>도움말</a><aclass="cs2_cs2"href="#"><spanclass="blind">연
+관검색어</span><span>더보기열기</span></a></div>
+</div>
+<divclass="asiderelateaside_type1"style="z-index:10">
+<h4class="h_side_title">
+<strongclass="tit">관련디렉토리</strong>
+</h4>
+<divclass="aside_list"id="au_directory_list">
+<ul>
+<li><!--마우스오버시layer_on클래스가추가되어야함-->
+<ahref="/qna/list.naver?dirId=10402"target="_blank">웹프로그래밍</a>
+<divclass="layer_baselayer_popcate"style="top:15px;left:9px;display:none;">
+<p>Q&amp;A&gt;컴퓨터통신&gt;프로그래밍&gt;웹프로그래밍</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<scripttype="text/javascript">
+nhn.Kin.Search.RelatedKeyword.initialize();
+</script>
+<divclass="tag_areaasideaside_type1">
+<h4class="h_side_title">관련태그</h4>
+<divclass="word_relate">
+<ulclass="relate_list">
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B6%81%EA%B8%88%EC%A6%9D&amp;listType=answer">#통합검색궁금증</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%BD%94%EB%94%A9&amp;listType=answer">#코딩</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&amp;listType=answer">#자바스크립트</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%9E%90%EB%B0%94&amp;listType=answer">#자바</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%BB%B4%ED%93%A8%ED%84%B0&amp;listType=answer">#컴퓨터</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%B3%B4%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B&amp;listType=answer">#보이즈플래닛</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=html&amp;listType=answer">#html</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%A7%80%EC%8B%9DiN%EB%8F%99%EC%98%81%EC%83%81%EC%A7%88%EB%AC%B8&amp;listType=answer">#지식iN동영상질문</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8&amp;listType=answer">#마인크래프트</a></li>
+<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=java&amp;listType=answer">#java</a></li>
+</ul>
+</div>
+</div>
+<divclass="asideaside_type1noline">
+<h4class="h_side_titletype_default">
+<strongclass="tit">아하!그렇구나</strong>
+</h4>
+<divclass="aside_list">
+<ul>
+<li><ahref="/qna/detail.naver?d1id=1&amp;dirId=110&amp;docId=439652829"target="_blank">가상키패드사 
+용이유?</a></li>
+<li><ahref="/qna/detail.naver?d1id=11&amp;dirId=1117&amp;docId=439332367"target="_blank">여름에는낮 
+이길고겨울에...</a></li>
+<li><ahref="/qna/detail.naver?d1id=2&amp;dirId=2011604&amp;docId=426831422"target="_blank">세렝게티 
+국립공원이유명...</a></li>
+<li><ahref="/qna/detail.naver?d1id=8&amp;dirId=8020606&amp;docId=437421998"target="_blank">구운달걀 
+노른자는왜초...</a></li>
+<li><ahref="/qna/detail.naver?d1id=5&amp;dirId=50502&amp;docId=438764943"target="_blank">대게랑킹크 
+랩차이</a></li>
+</ul>
+</div>
+<spanclass="more"><ahref="/best/listaha.naver">더보기</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<divclass="footer_wrap">
+<divclass="footer">
+<h2class="blind">하위영역</h2>
+<divclass="footer_menu">
+<aclass="_nclicks:fot.agreement"href="http://www.naver.com/rules/service.html"target="_blank">네이버
+이용약관</a>
+<spanclass="f_bar">|</span>
+<aclass="_nclicks:fot.policy"href="/common/guide.naver?query=p1"target="_blank">지식iN서비스운영정책
+</a>
+<spanclass="f_bar">|</span>
+<aclass="_nclicks:fot.privacy"href="http://www.naver.com/rules/privacy.html"target="_blank"><strong>개인정보처리방침</strong></a>
+<spanclass="f_bar">|</span>
+<aclass="_nclicks:fot.claim"href="http://inoti.naver.com/inoti/main.nhn"target="_blank">게시중단요청
+서비스</a>
+<spanclass="f_bar">|</span>
+<aclass="_nclicks:fot.help"href="https://help.naver.com/alias/kin/kinmain.naver"target="_blank">지식
+iN고객센터</a>
+</div>
+<pclass="copyright"><aclass="footer_logosp_common"href="http://www.naver.com"target="_blank">NAVER</a>Copyright©<strong><aclass="logo_nclicks:fot.nhncorp"href="https://www.navercorp.com"target="_blank">NAVERCorp.</a></strong>AllRightsReserved.</p>
+</div>
+</div>
+<scripttype="text/javascript">
+lcs_do();
+</script>
+</div>
+</body>
+</html>
+
+['<!DOCTYPEhtml>', '<htmllang="ko">', '<head>', '<metacontents="always"name="referrer"/>', '<metacontent="IE=edge"http-equiv="X-UA-Compatible"/>', '<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금
+증을해결하지못했다면지식iN\'질문하기\'를해보세요."name="description">', '<metacontent="width=1024"name="viewport"/>', '<metacontent="none"name="msapplication-config">', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/css/min/common.css"rel="stylesheet"type="text/css"/>', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/css/min/components.css"rel="stylesheet"type="text/css"/>', '<linkhref="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/css/min/other.css"rel="stylesheet"type="text/css"/>', '<script>', 'varpcDomain="kin.naver.com";', 'varpcDomainWithProtocol="https://kin.naver.com";', 'varpcKinServiceProtocol="https";', 'varmobileDomain="m.kin.naver.com";', 'varmobileDomainWithProtocol="https://m.kin.naver.com";', 'varmobileKinServiceProtocol="https";', 'varuploadDomain="upload.kin.naver.com";', 'varuploadDomainWithProtocol="https://upload.kin.naver.com";', 'varuploadKinServiceProtocol="https";', '</script>', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/js/min/kin.js"type="text/javascript"></script>', '<metacontent="text/html;charset=utf-8"http-equiv="Content-Type"/>', '<metacontent="noindex,nofollow"name="robots">', '<metacontent="파이썬검색결과:네이버지식iN"property="og:title">', '<metacontent="https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"property="og:url"/>', '<metacontent="https://ssl.pstatic.net/static/kin/common/kin_thumbnail_new_w1000.png"property="og:image"/>', '<metacontent="파이썬의지식iNQ&amp;A검색결과입니다.궁금증을해결하지못했다면지식iN\'질문하기\'를해보세요."property="og:description"/>', '<metacontent="네이버지식iN"property="og:article:author"/>', '<metacontent="https://kin.naver.com"property="og:article:author:url"/>', '<linkhref="/favicon.ico?v=2.4"rel="shortcuticon"type="image/x-icon"/>', '<title>', '파이썬검색결과:지식iN', '</title>', '<scripttype="text/javascript">', 'if(typeofwindow.nhn=="undefined")window.nhn={};', 'if(typeofwindow.naver=="undefined")window.naver={};', 'nhn.isLogin=false;', 'nhn.isJunior=("N"=="Y");', 'nhn.isKinUser=false;', 'nhn.isPortableDevice=false;', "nhn.jsDir='https://ssl.pstatic.net/static.kin/static/pc/20230308142845/js/min';", 'varg_ssc=("kin.search"=="")?"kin.temp":"kin.search";', 'varccsrv="cc.naver.com";', 'varkinRos={', 'bIsNoticeDisplay:("false"==""||"false"=="false")?false:true,', 'bIsActionNoticeDisplay:("false"==""||"false"=="false")?false:true', '};', 'varstandardReportPopupUrl="https://srp2.naver.com/report";', '</script>', '</meta></meta></meta></meta></head>', '<body>', '<divid="loadingIndicator"style="display:none;width:100%;height:100%;position:fixed;top:0px;left:0px;background-color:transparent;z-index:10000;">', '<imgalt="데이터요청응답대기중"height="21"src="https://ssl.pstatic.net/static/kin/m/ico_lod2.gif"style="position:absolute;top:49%;left:49%;"width="21"/>', '</div>', '<divclass="wrapwrap_search"id="wrap">', '<divclass="skip_navheader_gnb_inner">', '<aclass="skip"href="#gnb"onclick="nhn.Kin.Utility.skipNavigation(\'au_lnb_home\');returnfalse;">메인메뉴바로가기</a>', '<aclass="skip"href="#s_content"onclick="nhn.Kin.Utility.skipNavigation(\'s_content\');returnfalse;">본문바로가기</a>', '</div>', '<divclass="header_wrap">', '<divaria-labelledby="ieUpdateBannerTitle"class="popuppopup--header_notice"id="ieUpdateBanner"role="dialog"style="display:none;">', '<h1class="blind"id="ieUpdateBannerTitle"tabindex="0">권장브라우저업데이트안내</h1>', '<divclass="popup__content">', '<divclass="popup__title">', '<pclass="popup__title_text"><spanclass="ico_alertsp_common"></span>권장브라우저안내</p>', '</div>', '<divclass="popup__maintext">', '<pclass="popup__text">혹시아직인터넷익스플로러9.0미만버전을사용하 
+고계신가요?</p>', '<pclass="popup__subtext">새롭게바뀐지식iNQ&amp;A페이지는IE9.0이상의브라우저에최적 
+화되어있습니다.원활한이용을위해꼭업데이트해주세요!<aclass="popup__link"href="https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads"target="_blank">업데이트하기<spanclass="sp_commonico_arr_lnk"></span></a></p>', '</div>', '</div>', '</div>', '<scripttype="text/javascript">', '//IE8 
+이하이면브라우저버전을올려달라는배너를노출한다.', '$Fn(function(){', 'varoAgent=jindo.$Agent().navigator();', 'if(oAgent.ie&&(oAgent.version>=6&&oAgent.version<9)){', 'if(typeofnaver.kin.SimpleBanner!=="undefined"){', 'varoIeUpdateBanner=newnaver.kin.SimpleBanner({', 'sBannerId:"ieUpdateBannerArea"', '});', '}', '}', "},this).attach(document,'domready');", '</script>', '<divclass="header_gnb">', '<divclass="header_gnb_inner">', '<divclass="header_gnb__cell">', '<h1class="header_logo">', '<aclass="logo_naver"href="http://www.naver.com"onclick="nhn.Kin.Utility.nClicks(\'STA.naverlogo\',\'\',\'\',event);"title="나의경쟁력,네이버"><spanclass="logo_kinsp_common">NAVER</span></a>', '</h1>', '<divclass="header_search">', '<h2class="logo_wrap">', '<aclass="sp_gnbicon_logo_kin"href="/"onclick="nhn.Kin.Utility.nClicks(\'STA.kin\',\'\',\'\',event);">지식iN</a>', '</h2>', '<h3class="blind">검색영역</h3>', '<formaction="/search/list.naver"id="topSearch"method="get"name="topSearch"onsubmit="returncheckQuery();">', '<fieldset>', '<legend>지식인검색</legend>', '<divclass="search_area">', '<inputaccesskey="s"aria-autocomplete="list"aria-controls="atcmpList"aria-expanded="false"aria-haspopup="listbox"autocomplete="off"class="search_input"id="nx_query"maxlength="255"name="query"onclick="nhn.Kin.Utility.nClicks(\'STA.search\',\'\',\'\',event);returnfalse;"role="combobox"title="검색어입력"type="text"value="파이 
+썬"/>', '<aclass="search_auto"href="#">', '<spanclass="sp_gnbicon_arrow"id="triangleBtn">자동완성열기
+</span>', '</a>', '<div>', '<iframeclass="auto_complete_box"frameborder="0"height="193px"id="autoFrame"marginheight="0"marginwidth="0"scrolling="no"title="검색어자동완성"width="290"></iframe>', '</div>', '<aclass="search_btn"href="#"onclick="returncheckQuery();"><spanclass="sp_gnbicon_search">지식iN검 
+색</span></a>', '</div>', '</fieldset>', '</form>', '</div>', '</div>', '<divclass="header_gnb__cell">', '<divclass="gnb_wrap">', '<divclass="gnb_eXpertLogo">', '<aaria-controls="bannerExpert"aria-expanded="true"aria-haspopup="true"class="link"href="https://expert.naver.com"id="bannerLink"target="_blank">', '<spanclass="logo"><spanclass="blind">eXpert</span></span>', '</a>', '</div>', '<divclass="gnb_chat_chatButtonArea">', '<buttonaria-controls="chatMenu"aria-expanded="false"aria-haspopup="true"aria-pressed="false"class="button_chat"id="chatButton"type="button">', '<spanclass="blind">상담목록</span>', '<spanclass="icon_chat"></span>', '<iclass="iconActive"style="display:none"><spanclass="blind">미
+확인메시지</span></i>', '</button>', '<divaria-hidden="true"class="chat_popup"id="chatMenu"role="menu">', '<aclass="link_chat"href="/expert/center/counseling/list"role="menuitem"target="_blank">', '판매
+한상품', '<iclass="_counselorNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>', '</a>', '<aclass="link_chat"href="/counseling/purchases"role="menuitem"target="_blank">', '구매한
+상품', '<iclass="_counseleeNewIconiconNewChat"style="display:none"><spanclass="blind">NEW</span></i>', '</a>', '</div>', '</div>', '<divclass="gnb_common_area">', '<divid="gnb">', '<scripttype="text/javascript">', 'vargnb_service="kin";', 'vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");', "vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');", 'vargnb_template="gnb_utf8";', 'vargnb_item_hide_option=0;', '</script>', '<scriptcharset="utf-8"src="https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?2023030900"type="text/javascript"></script>', '</div>', '</div>', '</div>', '<divclass="header__rollingrolling-notice">', '<iclass="icon_speaker"><spanclass="blind">실시간공지사항</span></i>', '<ulclass="rolling-notice__list_rolling_banner"id="listNotice">', '<liclass="rolling-notice__item_rollingItem"data-start-time="2021-10-2600:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>', '<spanclass="text-color--secondary">2023년엑스퍼트전문가되자!</span>', '</a>', '</li>', '<liclass="rolling-notice__item_rollingItem"data-start-time="2022-08-3100:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://expert.naver.com/expert/introduction?tab=guide#join"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새소식</span></i>', '<spanclass="text-color--secondary">지존도이제엑스퍼트</span>', '</a>', '</li>', '<liclass="rolling-notice__item_rollingItem"data-start-time="2022-12-0600:00:00"style="display:none;">', '<aclass="rolling-notice__link"href="https://m.expert.naver.com/"onclick="nhn.Kin.Utility.nClicks(\'STA.event\',\'\',\'\',event);">', '<iclass="icon_new_red_newMark"style="display:none;"><spanclass="blind">새 
+소식</span></i>', '전문가가필요할때!엑스퍼트.', '</a>', '</li>', '</ul>', '</div>', '</div>', '</div>', '</div>', '<!--nav-->', '<divclass="nav"role="navigation">', '<divclass="nav_inner">', '<h3class="blind">메인메뉴</h3>', '<ulclass="nav_list"id="au_lnb"role="menubar">', '<liclass="menu"role="presentation">', '<aclass="item"href="/index.naver"id="au_lnb_home"onclick="nhn.Kin.Utility.nClicks(\'LNB.home\',\'\',\'\',event);"role="menuitem"tabindex="0"><em>홈</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aaria-expanded="false"aria-haspopup="true"class="item"href="/qna/list.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.qna\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>Q&amp;A</em></a>', '<ulclass="nav_sub_list_lnbSubMenu"role="menu">', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=11"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'11\',\'1\',event);"role="menuitem"tabindex="-1">교육,학문</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=1"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'1\',\'2\',event);"role="menuitem"tabindex="-1">컴퓨터통신</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=2"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'2\',\'3\',event);"role="menuitem"tabindex="-1">게임</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=3"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'3\',\'4\',event);"role="menuitem"tabindex="-1">엔터테인먼트,예술</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=8"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'8\',\'5\',event);"role="menuitem"tabindex="-1">생활</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=7"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'7\',\'6\',event);"role="menuitem"tabindex="-1">건강</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=6"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'6\',\'7\',event);"role="menuitem"tabindex="-1">사회,정치</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=4"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'4\',\'8\',event);"role="menuitem"tabindex="-1">경제</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=9"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'9\',\'9\',event);"role="menuitem"tabindex="-1">여행</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=10"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'10\',\'10\',event);"role="menuitem"tabindex="-1">스포츠,레저</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=5"onclick="nhn.Kin.Utility.nClicks(\'LNB.kinlayer\',\'5\',\'11\',event);"role="menuitem"tabindex="-1">쇼핑</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=13"onclick="nhn.Kin.Utility.nClicks(\'LNB.jun\',\'\',\'\',event);"role="menuitem"tabindex="-1">쥬니버Q&amp;A</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=12"onclick="nhn.Kin.Utility.nClicks(\'LNB.loc\',\'\',\'\',event);"role="menuitem"tabindex="-1">지역&amp;플레이스</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/qna/list.naver?dirId=20"onclick="nhn.Kin.Utility.nClicks(\'LNB.talk\',\'\',\'\',event);"role="menuitem"tabindex="-1">고민Q&amp;A</a></li>', '<liclass="sub_menu"role="presentation"><aclass="item"href="/opendic/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.open\',\'\',\'\',event);"role="menuitem"tabindex="-1">오픈사전</a></li>', '</ul>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/qna/questionList.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.answer\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>답변하기</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/volunteer/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.donation\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>지식기부</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/people/elite/index.naver?from=lnb"id="peopleLnbBtn"onclick="nhn.Kin.Utility.nClicks(\'LNB.people\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>사람들</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/best/listaha.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.best\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>베스트</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/hall/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.honor\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>명예의전당</em></a>', '</li>', '<liclass="menu"role="presentation">', '<spanclass="lnb_bar">|</span>', '<aclass="item"href="/myinfo/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.profile\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>프로필</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/partnercenter/index.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.partner\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>파트너센터</em></a>', '</li>', '<liclass="menu"role="presentation">', '<aclass="item"href="/roulette/home.naver"onclick="nhn.Kin.Utility.nClicks(\'LNB.roulette\',\'\',\'\',event);"role="menuitem"tabindex="-1"><em>룰렛</em></a>', '</li>', 
+'</ul>', '<aclass="nav__button_question_clickcode:LNB.q"href="#"onclick="nhn.Kin.checkRosAndGoUrl(event,\'/qna/question.naver\',\'\');"role="button"><spanclass="btn_inner"><iclass="sp_gnbicon_pencil"></i>질문하기</span></a>', '</div>', '</div>', '</div>', '<scripttype="text/javascript">', '$Fn(function(){', 'newnaver.kin.LNB({', "'questionType':''", '});', "}).attach(window,'load');", 'varGNB_BRIGHTNESS_VALUE={', 'DARK_ICON:0,', 'DARK_ICON_AND_TRANSPARENCY:1,', 'BRIGHT_ICON_AND_TRANSPARENCY:2,', 'BRIGHT_ICON:3', '};', 'varGNB_ITEM_HIDE_OPTION_BIT_VALUE={', 'DEFAULT:0,', 'HIDE_LOGIN_BTN:1,', 'HIDE_USER_LAYER:2,', 'HIDE_NAVER_ME_AREA:4,', 'HIDE_MAIL_ALARM_AREA:8,', 'HIDE_PROFILE_IMAGE:16,', 'SHOW_BENEFIT_FOR_STAFF_MEMBER:32', '};', 'varsmartSearch="";', 'vargnb_service="kin";', 'vargnb_logout=encodeURIComponent("https://nid.naver.com/nidlogin.logout");', "vargnb_login=encodeURIComponent(location.href||'https://kin.naver.com');", 'vargnb_template="gnb_utf8";', 'vargnb_item_hide_option=GNB_ITEM_HIDE_OPTION_BIT_VALUE.DEFAULT;', '$Fn(function(){', 'getGNB();', 'varbIsGnbClicked=false;', '$Fn(function(we){', 'if(!bIsGnbClicked){', 'gnbAllLayerClose();', '}', 'bIsGnbClicked=false;', "},this).attach(document.body,'click');", '$Fn(function(we){', 'bIsGnbClicked=true;', "},this).attach($('gnb'),'click');", 'try{', "$('autoFrame').src='/static/reatcmp.html?v=4.1';", '}catch(e){', '}', "smartSearch=newnhn.AjaxSuggestUS('nx_query','autoFrame',{", "url:'https://ac.search.naver.com/nx/ac',", "cookieName:'NaverSuggestUse',", "listbox:'_resultBox',", "sFromName:'topSearch',", "triangleBtn:'triangleBtn',", 'sListMaxLength:55,', 'listMaxCount:15,', "request_type:'jsonp',", 'request_data:{', "q:'{query}',", "st:'100',", "r_format:'json',", "t_koreng:'1',", "q_enc:'UTF-8',", "r_enc:'UTF-8',", "r_unicode:'0',", "r_escape:'1',", "frm:'kin'", '},', "sTriangleUpOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_up.gif',", "sTriangleUpOff:'https://ssl.pstatic.net/sstatic/search/mypocket/v3/btn_atcmp_off_op2.gif',", "sTriangleDownOn:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down.gif',", "sTriangleDownOff:'https://ssl.pstatic.net/static/common/snb/090513/bu_arrow_down3.gif'", '}).attach({', 'actSubmit:function(){', 'try{', 'top.selectAction(this._elForm);', '}catch(e){', 'try{', 'selectAction(this._elForm);', '}catch(e){', '}', '}', 'this._elForm.submit();', '}', '});', 'varexpertEntryBanner=$$.getSingle("div.gnb_eXpertLogodiv.banner");', 'if(!!expertEntryBanner){', 'varcookie=new$Cookie();', '$Fn(function(){', '$Element(expertEntryBanner).hide();', 'varnewDisabledUntil=newDate().getTime()+(3*1000*24*60*60);', 'cookie.set("kin_expert_entry_banner_disabled_until",newDisabledUntil,5);', '}).attach($$.getSingle("div.gnb_eXpertLogodiv.bannerbutton.buttonCancel"),\'click\');', 'vardisabledUntilTimestamp=newNumber(cookie.get("kin_expert_entry_banner_disabled_until"));', 'if(!isNaN(disabledUntilTimestamp)){', 'if(newDate().getTime()>disabledUntilTimestamp){', 'cookie.remove("kin_expert_entry_banner_disabled_until");', '$Element(expertEntryBanner).show();', '}', '}else{', '$Element(expertEntryBanner).show();', '}', '}', 'if(typeofnhn.Kin.ChatMenu!=="undefined"){', 'window.oChatMenu=newnhn.Kin.ChatMenu();', '}', "}).attach(window,'load');", '</script>', '<divclass="container-fluid"id="container">', '<divclass="container-fluid-content">', '<divclass="container-fluid-content-inner">', '<divid="search_result">', "<strong>'파이썬'</strong>에대한검색결과입니다.", '</div>', '<scripttype="text/javascript">', 'functioncheckAdultAuth(){', 'varurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin&excludeAdultDoc=false";', 'varsurl="https://"+top.location.hostname+"/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&cs=utf8&section=kin";', 'try{', 'top.location.href="https://nid.naver.com/nidlogin.login?svctype=128&a_version=2&viewtype=2&url="+encodeURIComponent(url+"&from=search")+"&surl="+encodeURIComponent(surl);', '}catch(e){', 'history.back();', '}', '}', '</script>', '<divclass="container-fluid-content__left"id="content">', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/js/min/nhn.Kin.Search.Terms.js"type="text/javascript"></script>', '<divid="s_content">', '<divid="scl">', '<ul>', '<liclass="tx_depth1"><strong><aclass="_nclicks:tab.kin"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin"title="전체"><span>전체</span></a></strong></li>', '<liclass="tx_depth2"><aclass="_nclicks:tab.qna"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna"title="Q&amp;A"><span>Q&amp;A</span></a></li>', '<liclass="tx_depth3"><aclass="_nclicks:tab.ency"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=ency"title="오픈백과"><span>오픈백과</span></a></li>', '<liclass="tx_depth6"><aclass="_nclicks:tab.noanswer"href="/search/noAnswerList.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC"target="_blank"title="답변을기다리는질문"><span>답변을기다리는질문</span></a></li>', '<li>', '</li></ul>', '</div>', '<divclass="banner_suicide_stop"id="suicidalPreventionBanner"style="display:none;">', '<divclass="content_suicide_stop">', '<h3class="tit_suicide_stop">', '<spanclass="blind">생명은
+소중합니다.!지금,희망을클릭하세요.</span>', '</h3>', '<ulclass="info_suicide_stop">', '<liclass="counsel_listv1">', '<strongclass="tit_counsel_list">전화상담</strong>', '<ulclass="counsel_info_list">', 
+'<li>자살예방상담전화<em>1393</em></li>', '<li>정신건강상담전화<em>1577-0199</em></li>', '<li><ahref="https://www.cyber1388.kr:447"target="_blank">청소년HelpCall</a><em>1388</em></li>', '<li><ahref="https://www.lifeline.or.kr"target="_blank">한국생명의전화</a><em>1588-9191</em></li>', '<li>한마음한몸자
+살예방센터<em>1577-0199</em></li>', '</ul>', '</li>', '<liclass="counsel_listv2">', '<strongclass="tit_counsel_list">온라인상담</strong>', '<ulclass="counsel_info_list">', '<li><ahref="https://www.lifeline.or.kr"id="btn_suicide_stop"target="_blank">한국생명의전화</a></li>', '<li><ahref="https://www.cyber1388.kr:447"target="_blank">청소년사이버상담센터</a></li>', '</ul>', '</li>', '<liclass="counsel_listv3">', '<strongclass="tit_counsel_list">지식iN도여러분을돕습니다.</strong>', '<ulclass="counsel_info_list">', '<li><ahref="/qna/question.naver?expertType=doctor&amp;dirId=70109"target="_blank">의사에 
+게질문하기</a></li>', '<li><ahref="/profile/index.naver?u=6oCfeacJKVQGwsBB7OHEIS4miiPixwQ%2FoueervNeYrg%3D"target="_blank">여성가족부.한국청소년상담복지개발원</a></li>', '<li><ahref="/profile/index.naver?u=9xhBJX%2Fe3worDHM4Tp9d%2F4jUxoIMOWjkBn9VK4u3x8M%3D"target="_blank">경기도청소년상담복지센터</a></li>', '<liclass="list_aside"><ahref="/profile/index.naver?u=m61fd7AyyTNGzdSXnfIARZMD2YrqU0TvSai8n3aIfHk%3D"target="_blank">마음상담</a></li>', '<li><spanclass="counsel_vt">|</span><ahref="/profile/index.naver?u=9AFcqSNT5xcmX%2BDwjqumdFA11U6ypJgxKXiNTqx%2FenU%3D"target="_blank">허그맘</a></li>', '</ul>', '</li>', '</ul>', '</div>', '</div>', '<scripttype="text/javascript">', 'jindo.$Fn(function(){', "if(nhn.Kin.Utility.containSuicideKeywords('\\uD30C\\uC774\\uC36C')){", "jindo.$Element('suicidalPreventionBanner').show();", '}', '},this).attach(window,"load");', '</script>', '<divclass="section">', '<h2>', '<imgalt="전체지식iN"height="15"src="https://ssl.pstatic.net/static/kin/09renewal/h_search_kin_all.gif"width="67"/>', '<spanclass="number">(<em>1-10/247,546</em>)</span>', '</h2>', '<divclass="option_search">', '<ulclass="option_sort">', '<liclass="sp_sort1"><strong><aaria-current="true"class="_nclicks:kin.relavant"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=none"title="정확도"><span>정확도</span></a></strong></li>', '<liclass="sp_sort2"><aclass="_nclicks:kin.recent"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=date"title="최신순"><span>최신순</span></a></li>', '<liclass="sp_sort3"><aclass="_nclicks:kin.vcount"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=kin&amp;sort=vcount"title="추천순"><span>추천순</span></a></li>', '</ul>', '<formname="date_search">', '<inputname="sort"type="hidden"value="none">', '<inputname="section"type="hidden"value="kin"/>', '<inputname="query"type="hidden"value="파이썬"/>', '<inputid="au_period"name="period"type="hidden"value=""/>', '</input></form>', '<ulclass="option_term">', '<li>', '<divclass="selectbox-noscript"id="au_date_select">', '<selectclass="selectbox-source"id="au_date_result"name="date"title="기간전체">', '<optionclass="_nclicks:kin.dateall"selected=""value="0">기간전
+체</option>', '<optionclass="_nclicks:kin.date1w"value="1">최근1주</option>', '<optionclass="_nclicks:kin.date1m"value="2">최근1달</option>', '<optionclass="selectbox-notclose_nclicks:kin.dateinput"value="2002.01.01.2023.03.09.">기간입력</option>', '</select>', '<divclass="selectbox-box">', '<divclass="selectbox-label"></div>', '</div>', '<divclass="selectbox-layer">', '<divclass="selectbox-list"></div>', '</div>', '</div>', '</li>', '</ul>', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/js/min/nhn.Kin.Search.DateSelectBox.js"type="text/javascript"></script>', '<scripttype="text/javascript">', '$Fn(function(){', "nhn.Kin.Search.DateSelectBox.initialize('PC');", '},this).attach(window,"load");', '</script>', '</div>', '<!--SearchList-->', '<strongclass="blind">검색결과</strong>', '<ulclass="basic1">', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440782348&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=1&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>노
+트북사양</a>', '</dt>', '<ddclass="txt_inline">2023.03.02.</dd>', '<dd><b>파이썬</b>하고과제정도하는 
+데에i5칩정도면괜찮을까요?i3은너무부족하겠죠?사실<b>파이썬</b>은i3으로도차고넘치지만...나중을위해서라 
+도i5정도는가주시는게나을...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP5"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top5.gif"width="25">', '폴리글랏(kjh5****)', '</img></dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=440982546&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=2&amp;search_sort=0&amp;spq=0"target="_blank"><b>파 
+이썬</b>책</a>', '</dt>', '<ddclass="txt_inline">2023.03.05.</dd>', '<dd>...모르고<b>파이썬</b>을공부
+해볼려합니다무슨책을사용해야할지골라주세요1.doit점프투<b>파이썬</b>2.나도코딩의<b>파이썬</b>입문3.혼 
+자공부하는<b>파이썬</b>4.혼자공부하는첫...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30">', 'ncode(xtel****)', '</img></dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=440990622&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=3&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>공부</a>', '</dt>', '<ddclass="txt_inline">2023.03.06.</dd>', '<dd>점프투<b>파이썬
+</b>을공부했는데그다음에무엇을해야하나요?<b>파이썬</b>공부로드맵부탁드립니다<b>파이썬</b>에는수많은라
+이브러리들이있습니다.거의필수라고...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답
+변수2</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=104&amp;docId=439398856&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=4&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>질문</a>', '</dt>', '<ddclass="txt_inline">2023.02.14.</dd>', "<dd><b>파이썬</b>파일을만든후프롬프트에예를들어python파일이름-example에서...argv[0]은'argv.py'로<b>파이썬</b>파일명이
+됩니다.argv[1]은'a1'이됩니다.보통len(sys....</dd>", '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=104">프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', 'tk****', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=439768864&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=5&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>책</a>', '</dt>', '<ddclass="txt_inline">2023.02.18.</dd>', '<dd>점프투<b>파이썬</b>,혼자서공부하는<b>파이썬</b>,<b>파이썬</b>200제3가지책의장단점알려주세요완전처음시작하는초본데어떤책이좋을까요3가지책모두보긴했는데...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프 
+로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '은빛비(ma****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=101&amp;docId=439916206&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=6&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>독학해보려는데요..</a>', '</dt>', '<ddclass="txt_inline">2023.02.20.</dd>', '<dd>...언어중에<b>파이썬</b>을배워보려고하는데참고할만한자료나온라인강의영상있을까요?그리고관련직종은뭐가있고<b>파이썬</b>독학으로취업이가능할까요?<b>파이썬</b>독학...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=101">컴퓨터,하드웨어</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수2</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=441005382&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=7&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>문제풀어주세요</a>', '</dt>', '<ddclass="txt_inline">2023.03.06.</dd>', '<dd><b>파이썬</b>문제어떻게푸는지알려주세요그이외답변 
+신고합니다num1=100num2=200print("숫자1:",num1,"숫자2:",num2)print(num1,"+",num2,"=",num1+num2)#......</dd>', '<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%BD%94%EB%94%A9&amp;listType=answer">#파이썬코딩</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D&amp;listType=answer">#파이썬프로그래밍</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC%EC%A0%9C&amp;listType=answer">#파이썬
+과제</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수2</span>', '\xa0추천수0', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP100"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top100.gif"width="32"/>', '용용(ytle****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=437504170&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=8&amp;search_sort=0&amp;spq=0"target="_blank"><b>파이썬</b>환경문의드립니다.</a>', '</dt>', '<ddclass="txt_inline">2023.01.21.</dd>', '<dd>...여기서는<b>파이썬</b>공식혼페이지에서<b>파이썬</b>설치그리고에디
+터로는vscode...그런데이번에다른강사분의<b>파이썬</b>을공부하려고준비중인데여기서는파이참과...</dd>', 
+'<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%95%84%EB%82%98%EC%BD%98%EB%8B%A4%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#아나콘다파이
+썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%B0%B8&amp;listType=answer">#파이참</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹
+프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천수1', '<spanclass="bar">|</span>', '답변', '<imgalt="TOP50"class="ico_top5"height="11"src="https://ssl.pstatic.net/static/kin/09renewal/ico_badge_top50.gif"width="30"/>', 'Roong(sleo****)', '</dd>', '</dl>', '</li>', '<li>', '<divclass="thumb">', '<aclass="_nclicks:kin.img"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank"><imgalt="VSCode파이썬인터프리터안뜸"onerror="this.parentNode.parentNode.style.display=\'none\';"src="https://kin-phinf.pstatic.net/20230129_208/1674985486259ucB9o_PNG/image.png?type=m100"/></a>', '</div>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=10402&amp;docId=438135057&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=9&amp;search_sort=0&amp;spq=0"target="_blank">VSCode<b>파이썬</b>인터프리터안뜸</a>', '</dt>', '<ddclass="txt_inline">2023.01.29.</dd>', '<dd>안녕하세요<b>파이썬</b>배우고있는사람입니다.초반에<b>파이썬</b>설치가좀지저분했어서<b>파이썬</b>및VSCode둘다삭제 
+후재설치했어요.그런데사진과같이VSCode에서...</dd>', '<ddclass="tag_area">', '<aclass="em_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;listType=answer">#파이썬</a>', '<aclass="_nclicks:kin.tag"href="/tag/tagDetail.naver?tag=%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0&amp;listType=answer">#인터프리터</a>', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=10402">웹프로그래밍</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수1</span>', '\xa0추천 
+수0', '<spanclass="bar">|</span>', '답변', '몰랩(71****)', '</dd>', '</dl>', '</li>', '<li>', '<dl>', '<dt>', '<aclass="_nclicks:kin.txt_searchListTitleAnchor"href="https://kin.naver.com/qna/detail.naver?d1id=1&amp;dirId=1040201&amp;docId=428318333&amp;qb=7YyM7J207I2s&amp;enc=utf8§ion=kin&amp;rank=10&amp;search_sort=0&amp;spq=0"target="_blank">자바신입개발자로취직후<b>파이썬</b>으로...</a>', '<imgalt="지식파트너답변"class="ico_pro"height="14"src="https://ssl.pstatic.net/static/kin/09renewal/ico_kin_partner.gif"width="51"/>', '</dt>', '<ddclass="txt_inline">2022.09.16.</dd>', '<dd>...회사에서<b>파이 
+썬</b>으로개발을해야하는상황이라<b>파이썬</b>을학습하고있습니다..그냥참고3년<b>파이썬</b>배우고3년후 
+에중고신입으로자바개발자로이직하는게나을까요?...</dd>', '<ddclass="tag_area">', '</dd>', '<ddclass="txt_block">', '<aclass="txt_g1_nclicks:kin.cat1"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna">Q&amp;A</a>', '&gt;<aclass="txt_g1_nclicks:kin.cat2"href="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC§ion=qna&amp;dirId=1040201">자바,JSP</a>', '<spanclass="bar">|</span>', '<spanclass="hit">답변수4</span>', '\xa0추천수0', '</dd>', '</dl>', '</li>', '</ul>', '<divclass="s_paging">', '<strong>1</strong>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=2"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'2\',event);">2</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=3"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'3\',event);">3</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=4"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'4\',event);">4</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=5"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'5\',event);">5</a>', 
+'<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=6"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'6\',event);">6</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=7"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'7\',event);">7</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=8"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'8\',event);">8</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=9"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'9\',event);">9</a>', '<ahref="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=10"onclick="nhn.Kin.Utility.nClicks(\'kin.page\',\'\',\'10\',event);">10</a>', '<aclass="next_nclicks:kin.next"href="/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC&amp;page=11">다음페이지</a>', '</div><!--kin:navigationmaxPage="50"/-->', '<scripttype="text/javascript">', 'varkinSearchTerms=newnhn.Kin.Search.Terms();', 'if(kinSearchTerms){', "kinSearchTerms.addTerm('\\uD30C\\uC774\\uC36C');", "kinSearchTerms.addQueryToTerm('\\uD30C\\uC774\\uC36C');", 'varkin_terms=kinSearchTerms.makeTermArray();', '}', '</script>', '<divclass="this_questions"id="bottomQuestionButton">', '<p>', '<bclass="keyword">\'파이썬\'</b>에대한궁금증을해결하지못하셨다면직접질문해보
+세요!<br/>', '내궁금증에맞는더정확한답변을받을수있습니다.', '</p>', '<aclass="btn_go_question_nclicks:ask.question"href="/qna/question.naver"target="_blank"title="질문하러가기"><imgalt="질문하러가기"height="33"src="https://ssl.pstatic.net/static/kin/09renewal/btn_go_question.gif"width="121"/></a>', '</div>', '<scripttype="text/javascript">', '$Fn(function(){', "if(nhn.Kin.Utility.containSuicideKeywords('\\uD30C\\uC774\\uC36C')){", "$Element('bottomQuestionButton').hide();", '}', '},this).attach(window,"load");', '</script>', '</div>', '</div>', '</div>', '<divclass="container-fluid-content__right">', '<divid="aside">', '<scriptsrc="https://ssl.pstatic.net/static.kin/static/pc/20230308142845/js/min/nhn.Kin.Search.RelatedKeyword.js"type="text/javascript"></script>', '<divclass="asiderelateaside_type1"id="au_related_keyword">', '<h4class="h_side_title">', '<strongclass="tit">연관검색어</strong>', '</h4>', '<divclass="aside_listaside_word">', '<ul>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8F%85%ED%95%99">파이썬독학</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%90%EA%B2%A9%EC%A6%9D">파이썬자격증</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B8%B0%EC%B4%88">파이썬기초</a></li>', '<li><ahref="/search/list.naver?query=%ED%98%BC%EC%9E%90%20%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">혼자공부하는파이썬</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%B1%85">파이썬책</a></li>', '<li><ahref="/search/list.naver?query=%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">두근두근파이썬</a></li>', '<li><ahref="/search/list.naver?query=%EC%A0%90%ED%94%84%ED%88%AC%ED%8C%8C%EC%9D%B4%EC%8D%AC">점프투파이썬</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%84%A4%EC%B9%98">파이썬설치</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%BD%94%EB%94%A9">파이썬코딩</a></li>', '<li><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%95%99%EC%9B%90">파이 
+썬학원</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%EB%A7%A5%EB%B6%81%20%ED%8C%8C%EC%9D%B4%EC%8D%AC">맥북파이썬</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B0%95%EC%9D%98">파이썬강의</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%9C%BB">파이썬뜻</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20c%EC%96%B8%EC%96%B4">파이썬c언어</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8">파이썬프로그램</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EB%9E%80">파이썬이란</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%B1%80">파이썬뱀</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C">파이썬다운로드</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B5%90%EC%9E%AC">파
+이썬교재</a></li>', '<liclass="_related_keyword"style="display:none;"><ahref="/search/list.naver?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%96%B8%EC%96%B4">파이썬언어</a></li>', '</ul>', '</div>', '<divclass="aside_help"><aclass="cs"href="https://help.naver.com/service/5627/contents/4956"target="_blank"><spanclass="blind">연관검색어</span>도움말</a><aclass="cs2_cs2"href="#"><spanclass="blind">연관검색어</span><span>더보기열기</span></a></div>', '</div>', '<divclass="asiderelateaside_type1"style="z-index:10">', '<h4class="h_side_title">', '<strongclass="tit">관련디렉토리</strong>', '</h4>', '<divclass="aside_list"id="au_directory_list">', '<ul>', '<li><!--마우스오버시layer_on클래스가추가되어야함-->', '<ahref="/qna/list.naver?dirId=10402"target="_blank">웹프로그래밍</a>', '<divclass="layer_baselayer_popcate"style="top:15px;left:9px;display:none;">', '<p>Q&amp;A&gt;컴퓨터통신&gt;프로그래밍&gt;웹프로그 
+래밍</p>', '</div>', '</li>', '</ul>', '</div>', '</div>', '<scripttype="text/javascript">', 'nhn.Kin.Search.RelatedKeyword.initialize();', '</script>', '<divclass="tag_areaasideaside_type1">', '<h4class="h_side_title">관련태그</h4>', '<divclass="word_relate">', '<ulclass="relate_list">', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%BB%B4%ED%93%A8%ED%84%B0&amp;listType=answer">#컴
+퓨터</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%98%A4%EB%A5%98&amp;listType=answer">#오류</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%B3%B4%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B&amp;listType=answer">#보이즈플래닛</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=html&amp;listType=answer">#html</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%A7%80%EC%8B%9DiN%EB%8F%99%EC%98%81%EC%83%81%EC%A7%88%EB%AC%B8&amp;listType=answer">#지식iN동영상질문</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=javascript&amp;listType=answer">#javascript</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=java&amp;listType=answer">#java</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C&amp;listType=answer">#프론트엔드</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EC%95%84%EC%9D%B4%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C&amp;listType=answer">#아이클라우드</a></li>', '<li><aclass="_nclicks:src.tag"href="/tag/tagDetail.naver?tag=%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8&amp;listType=answer">#마인크래프트</a></li>', '</ul>', '</div>', '</div>', '<divclass="asideaside_type1noline">', '<h4class="h_side_titletype_default">', '<strongclass="tit">아하!그렇구나</strong>', '</h4>', '<divclass="aside_list">', '<ul>', '<li><ahref="/qna/detail.naver?d1id=8&amp;dirId=8030207&amp;docId=429534999"target="_blank">미용실,미장원,미용원,이발...</a></li>', '<li><ahref="/qna/detail.naver?d1id=11&amp;dirId=11080102&amp;docId=437716488"target="_blank">전통정통차이 
+가뭔가요?</a></li>', '<li><ahref="/qna/detail.naver?d1id=8&amp;dirId=8020606&amp;docId=437421998"target="_blank">구운달걀노른자는왜초...</a></li>', '<li><ahref="/qna/detail.naver?d1id=5&amp;dirId=50104&amp;docId=394123211"target="_blank">지역마다진도가다른이유...</a></li>', '<li><ahref="/qna/detail.naver?d1id=8&amp;dirId=814&amp;docId=435493082"target="_blank">하든,하던둘이뭐가다른...</a></li>', '</ul>', '</div>', '<spanclass="more"><ahref="/best/listaha.naver">더보기</a></span>', '</div>', '</div>', '</div>', '</div>', '</div>', '</div>', '<divclass="footer_wrap">', '<divclass="footer">', '<h2class="blind">하위영역</h2>', '<divclass="footer_menu">', '<aclass="_nclicks:fot.agreement"href="http://www.naver.com/rules/service.html"target="_blank">네이버이용약관</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.policy"href="/common/guide.naver?query=p1"target="_blank">지식iN서비스운영정책</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.privacy"href="http://www.naver.com/rules/privacy.html"target="_blank"><strong>개인정보처리방침</strong></a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.claim"href="http://inoti.naver.com/inoti/main.nhn"target="_blank">게시중단요청서
+비스</a>', '<spanclass="f_bar">|</span>', '<aclass="_nclicks:fot.help"href="https://help.naver.com/alias/kin/kinmain.naver"target="_blank">지식iN고객센터</a>', '</div>', '<pclass="copyright"><aclass="footer_logosp_common"href="http://www.naver.com"target="_blank">NAVER</a>Copyright©<strong><aclass="logo_nclicks:fot.nhncorp"href="https://www.navercorp.com"target="_blank">NAVERCorp.</a></strong>AllRightsReserved.</p>', '</div>', '</div>', '<scripttype="text/javascript">', 'lcs_do();', '</script>', '</div>', '</body>', '</html>']
