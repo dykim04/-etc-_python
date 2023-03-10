@@ -3,10 +3,24 @@ import string
 from bs4 import BeautifulSoup
 
 def preprocess(li):
-    sentence = "<ab><>aaa<>"
-    print(sentence.translate(sentence[0]))
-    sentence = sentence.translate(sentence[0])
-    print(sentence)
+    res = []
+    new = ""
+    for elem in li:
+        new = elem.translate({ord(c): None for c in string.whitespace})
+        lst = []
+        temp = []
+        for elem in new.split("<"):
+            temp = elem.split(">")
+            for factors in temp:
+                lst.append(factors)
+        # print(lst)
+        for elem in lst:
+            if elem != '':
+                res.append(elem)
+    for elem in res:
+        print(elem)
+    # print(res)
+
 def parse(url):
     response = requests.get(url)
     new_str = ""
